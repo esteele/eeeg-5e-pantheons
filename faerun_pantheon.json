@@ -5,30 +5,27 @@
     "description": "",
     "favouredWeapon": "",
     "holyDays": {
-      "earth": []
+      "title": "Holy Days",
+      "children": []
     }
   },
   "gods": [
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Akadi",
       "key": "Akadi",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["Goddess of Air"],
       "description": "",
       "symbol": "Cloud",
@@ -39,14 +36,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -85,13 +81,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -102,7 +102,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -118,35 +117,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Amaunator",
       "key": "Amaunator",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of the Sun",
         "The Keeper of the Eternal Sun",
@@ -162,16 +175,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Preserve Life"
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Preserve Life", "Radiance of the Dawn"]
         },
-        {
-          "title": "Radiance of the Dawn"
-        }
-      ],
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -197,12 +207,6 @@
           "anarchy": 0,
           "constitutional monarchy": 5
         },
-        "professionSector": {
-          "agriculture": 6,
-          "adventuring": 6,
-          "government and law": 6,
-          "transportation": 6
-        },
         "race": {
           "dragonborn": 1,
           "dwarf": 5,
@@ -214,15 +218,27 @@
           "half-orc": 0,
           "halfling": 0,
           "tiefling": 0
+        },
+        "npc": {
+          "professionSector": {
+            "agriculture": 6,
+            "adventuring": 6,
+            "government and law": 6,
+            "transportation": 6
+          }
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -233,7 +249,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -249,35 +264,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Asmodeus",
       "key": "Asmodeus",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Indulgence",
         "The Lord of the Ninth",
@@ -293,25 +322,19 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Knowledge of the Ages"
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": [
+          "Knowledge of the Ages",
+          "Read Thoughts",
+          "Invoke Duplicity",
+          "Cloak of Shadows",
+          "Order's Demand"
+        ]
         },
-        {
-          "title": "Read Thoughts"
-        },
-        {
-          "title": "Invoke Duplicity"
-        },
-        {
-          "title": "Cloak of Shadows"
-        },
-        {
-          "title": "Order's Demand"
-        }
-      ],
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -350,13 +373,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -367,7 +394,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -383,35 +409,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Auril",
       "key": "Auril",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "Goddess of Winter",
         "The Frostmaiden",
@@ -427,16 +467,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Charm animals and plants"
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Charm Animals and Plants", "Destructive Wrath"]
         },
-        {
-          "title": "Destructive Wrath"
-        }
-      ],
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -475,13 +512,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -492,7 +533,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -508,35 +548,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Azuth",
       "key": "Azuth",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Wizardry",
         "The High One",
@@ -552,14 +606,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -598,13 +651,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -615,7 +672,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -631,35 +687,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Bane",
       "key": "Bane",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Tyranny", "The Black Hand", "The Lord of Darkness"],
       "description": "Bane has a simple ethos: the strong have not just the right but the duty to rule over the weak. A tyrant who is able to seize power must do so, for not only does the tyrant benefit, but so do those under the tyrant's rule. When a ruler succumbs to decadence, corruption, or decrepitude, a stronger and more suitable ruler will rise.\nBane is vilified in many legends. Throughout history, those who favor him have committed dark deeds in his name, but most people don't worship Bane out of malice. Bane represents ambition and control, and those who have the former but lack the latter pray to him to give them strength. It is said that Bane favors those who exhibit drive and courage, and that he aids those who seek to become conquerors, carving kingdoms from the wilderness, and bringing order to the lawless.mAt many times and in many places in Faerûn, the faithful of Bane have been seen as saviors for their efforts in slaughtering raiders, throwing down corrupt rulers, or saving armies on the brink of defeat. But in just as many other places, the worship of Bane has created or supported cruel dictatorships, aided mercantile monopolies, or brought about the practice of slavery where before it didn't exist.",
       "symbol": "Upright black hand, thumb and fingers together",
@@ -670,14 +740,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -716,13 +785,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -733,7 +806,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -749,18 +821,36 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Beshaba",
       "key": "Beshaba",
       "aliases": [
@@ -771,18 +861,14 @@
       ],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [""],
       "description": "Beshaba is the counterpoint to Tymora and is just as frequently acknowledged in daily life as is her more benevolent \"sister.\" She is seen as a cruel and capricious goddess who must be propitiated to avoid attracting her attention and interest in a negative way.\nBeshaba's name is invoked when someone is beset by bad luck - which could be as minor as stubbing a toe or breaking a wagon wheel, or as catastrophic as slipping and accidentally falling off a cliff. It is also invoked to ward off her attentions when someone is doing something in which good luck wouldn't play a part but bad luck might. For example, someone rolling dice would invoke Tymora because they want random chance to fall in their favor, but someone about to cross a rickety bridge would ask Beshaba to keep the bridge intact.\nFolk make the symbol of Beshaba by folding in their thumbs and extending their fingers on one or both hands (mimicking the horns of her holy symbol) to ward off misfortune. The same gesture raised to the head signifies a salute; when pointed at someone, the \"horns\" indicate ill favor directed toward that individual.\nMany druids worship Beshaba as one of the First Circle. They propitiate her with dances while wearing fire-blackened antlers dipped in blood. According to these druids, her holy symbol is the horns of a stag because when Beshaba was first worshiped, humans were simple hunter-gatherers and she was believed to bring misfortune to hunters, such as being gored by a stag.\nAlthough most people tremble in fear at the prospect of Beshaba's attendance at any event (even in spirit), Beshaba is almost always invoked and welcomed formally in the opening speeches or ceremonies of formal functions such as marriages and coronations, contests of sport or martial prowess, and at the naming ceremonies of children. If she isn't invited to such an event, she might take offense and wreak misfortune on those involved.\nTemples to Beshaba are virtually unknown. It's common, however, for rural folk to erect a post and mount antlers on it at the site of some roadside accident or murder. In cities, where antlers are hard to come by and murders and accidents more prevalent, the fashion is to draw the black antlers of Beshaba with charcoal on a nearby wall, leaving the symbol on display until weather scours it away. These \"shrines,\" in either form, serve as warnings to others about places of ill fortune.\nMore formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wallmounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.\nFew dare to take Beshaba as a patron. The rare clerics of the Maid of Misfortune are those who have been deeply affected by great misfortunes and who seek to warn others of the essential unfairness of life - or to inflict that unfairness upon them.",
       "symbol": "Black antlers",
@@ -793,14 +879,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -839,13 +924,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -856,7 +945,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -872,12 +960,30 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
@@ -889,18 +995,14 @@
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Murder", "The Lord of Murder"],
       "description": "The folk of Faerûn don't normally pray to or acknowledge Bhaal. He is seen as a deeply evil and destructive deity who hungers for death - meaning the death of any sentient beings through unlawful means.\nSome people pray to Bhaal when they want to commit murder. A person might have good reason to resort to murder, such as when one is unable to redress some injustice through lawful means. But it's far more common for prayers to Bhaal to be uttered by those who seek to kill someone out of jealousy, greed, or wrath. It's rare for anyone but assassins or compulsive killers to take Bhaal as a patron, and clerics who revere Bhaal often qualify on both counts.\nMurder cults of Bhaal have arisen in the past, each led by a charismatic, self-styled priest of Bhaal, but organized worship of the Lord of Murder is extremely uncommon. Temples and shrines are similarly rare. Those who erect a shrine to Bhaal usually do so to thank him for a successful murder. Such shrines typically feature a skull or a severed head surrounded by drops of blood (often both from the murdered victim).",
       "symbol": "Skull surrounded by ring of bloody droplets",
@@ -911,14 +1013,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -957,13 +1058,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -974,7 +1079,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -990,35 +1094,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Chauntea",
       "key": "Chauntea",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "Goddess of Agriculture",
         "The Great Mother",
@@ -1033,14 +1151,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1079,13 +1196,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1096,7 +1217,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1112,35 +1232,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Cyric",
       "key": "Cyric",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Lies", "The Prince of Lies", "The Dark Sun"],
       "description": "The worship of Cyric derives directly from the story of his ascension to godhood. Cyric was a mortal during the Time of Troubles and the key to how that chaotic period resolved, but he was also a selfish traitor and a murderer. When he became a god, Cyric continued to work various plots of deceit and murder - the most famous of which is that, according to legend, Cyric murdered Mystra and thus caused the Spellplague over a century ago.\nThose who don't worship Cyric see him as a god of madness, strife, and deceit, although his priests consider such claims to be heresy. Their Prince of Lies isn't a twisted madman, but a god of dark majesty who proves that, ultimately, all bonds between folk corrupt and wither away.\nCyric's church works openly in Amn, where the citizens espouse the principles of ambition, self-reliance, and \"buyer beware.\" Those who take Cyric as their patron tend to be sadists, con artists, power-mad connivers, and worse. Other folk pray to Cyric when they want to do wrong but don't want others to find out about it.\n\"The Dark Sun,\" originally one of Cyric's epithets, has become a metaphor for strife in the Realms. \"A Dark Sun has risen o'er this court\" might be spoken as a warning that intrigues and infighting have gotten out of hand in a noble household; and married couples know to seek advice from others if \"a Dark Sun shines through the window\" in their relationship.",
       "symbol": "White jawless skull on black or purple sunburst",
@@ -1151,14 +1285,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1197,13 +1330,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1214,7 +1351,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1230,35 +1366,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Deneir",
       "key": "Deneir",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Writing",
         "The Lord of All Glyphs and Images",
@@ -1274,14 +1424,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1320,13 +1469,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1337,7 +1490,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1353,35 +1505,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Eldath",
       "key": "Eldath",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "Goddess of Peace",
         "The Quiet One",
@@ -1397,14 +1563,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1443,13 +1608,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1460,7 +1629,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1476,35 +1644,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Gond",
       "key": "Gond",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Craft",
         "The Wonderbringer",
@@ -1520,14 +1702,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1566,13 +1747,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1583,7 +1768,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1599,36 +1783,50 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Grumbar",
       "key": "Grumbar",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Earth"],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [""],
       "description": "",
       "symbol": "",
       "portfolios": ["knowledge"],
@@ -1638,14 +1836,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1684,13 +1881,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1701,7 +1902,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1717,35 +1917,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Gwaeron Windstrom",
       "key": "Gwaeron Windstrom",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Tracking", "The Mouth of Mielikki", "The Master Tracker", "The Tracker Never Led Astray"],
       "description": "Few aside from rangers of the North pray to Gwaeron Windstrom. Said to have been a mortal man elevated to godhood by Mielikki, Gwaeron serves rangers as their intercessor with Mielikki. He is seen as a master ranger, the perfect tracker, a peerless animal handler, and a dedicated foe of rapacious creatures such as trolls and orcs. He is said to look like an old man with a long white beard who is still hale and mighty, and he is believed to take rest and sleep in a stand of trees near Triboar.\nRangers pray to Gwaeron because he represents much of the work they do, and because he can speak to Mielikki on their behalf. In the North, most rangers view Mielikki as too mysterious, holy, and wild to be addressed directly with their requests, but they consider Gwaeron Windstrom to be one of them and thus understanding of their needs.\nGwaeron has no temples, but shrines dedicated to him can be found in many places that serve wilderness wanderers as trail markers. Each one is denoted by a carving of Gwaeron's symbol, a paw print with a star on the palm, on a prominent tree or stone.",
       "symbol": "Paw print with a five-pointed star in its center",
@@ -1756,14 +1970,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1802,13 +2015,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1819,7 +2036,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1835,35 +2051,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Helm",
       "key": "Helm",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Watchfulness",
         "The Watcher",
@@ -1879,14 +2109,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -1912,10 +2141,6 @@
           "anarchy": 0,
           "constitutional monarchy": 5
         },
-        "professionSector": {
-          "government and law": 7,
-          "military": 5
-        },
         "race": {
           "dragonborn": 1,
           "dwarf": 5,
@@ -1927,15 +2152,25 @@
           "half-orc": 0,
           "halfling": 0,
           "tiefling": 0
+        },
+        "npc": {
+          "professionSector": {
+            "government and law": 7,
+            "military": 5
+          }
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -1946,7 +2181,6 @@
         "honest": 80,
         "just": 90,
         "merciful": 0,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -1962,36 +2196,54 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Hoar",
       "key": "Hoar",
       "aliases": ["Assuran"],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Revenge and Retribution",
+        "The Doombringer",
+        "Poet of Justice"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Revenge and Retribution", "The Doombringer", "Poet of Justice"],
       "description": "Hoar, known in the lands along the Inner Sea as Assuran, is a god of revenge and retribution. He isn't typically worshiped habitually, but his name is invoked by those who seek vengeance. When a guilty party falls prey to fate - such as when a murderer escapes prosecution, but is then accidentally slain himself - the hand of Hoar is given credit. When one hears three rolls of thunder in succession, it is thought to be a sign from Hoar that some act of vengeance has been performed. Many human societies have the custom of ringing a bell or a gong three times when judgment of a crime is rendered or an execution takes place.\nFolk speak Hoar's name when they want revenge, particularly when they are incapable of avenging themselves. This invocation might be in response to a petty slight or a true injustice, and the acknowledgment of Hoar might be a short prayer said aloud or might be written down somewhere. It's generally believed that the more permanent the form of the prayer, the more likely it is to be fulfilled. For this reason, some etch their prayers in lead and bury it or hide their prayers inside diaries. Aside from bounty hunters and those on crusades of vengeance, few truly revere Hoar, and he is served by fewer still who would call themselves priests. Temples or shrines of Hoar are almost nonexistent except for ancient sites in Chessenta and Unther.\nHoar became a member of the Faerûnian pantheon when his worship extended beyond the lands that originally revered him. Most consider Tyr to be the arbiter of laws, and Hoar to be the god who metes out punishment that comes as a result of breaking those codes. A judge might favor the worship of Tyr, while a jailor or a headsman is more likely to pray to Hoar.",
       "symbol": "A coin with a two-faced head",
       "portfolios": ["war", "revenge"],
@@ -2001,14 +2253,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2047,13 +2298,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2064,7 +2319,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2080,36 +2334,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Ilmater",
       "key": "Ilmater",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Endurance",
+        "The Crying God",
+        "The Rack-Broken Lord",
+        "He Who Endures"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Endurance", "The Crying God", "The Rack-Broken Lord", "He Who Endures"],
       "description": "Ilmater is the god of suffering, martyrdom, and perseverance, renowned for his compassion and endurance. It is he who offers succor and calming words to those who are in pain, victimized, or in great need. He is the willing sufferer, the one who takes the place of another to heft the other's burden, to take the other's pain. He is the god of the oppressed and the unjustly treated.\nIt is said that if he had his way, the Crying God would take all the suffering in the world onto himself, so as to spare others. Since he can't, he blesses those who endure on others' behalf, and he alleviates suffering when he can. Martyrs who die that others may live are always blessed by Ilmater with a final rest and reward in the god's afterlife, should they so choose.\nIlmater's priests take in the ill, the starving, and the injured, and his temples give most of what they receive to help offset the suffering of the world. His followers provide succor when they can, but also use force to put an end to torture and suffering inflicted on others. Ilmater's priests travel to places where the worst possible conditions exist, ministering to the needs of the oppressed, the deceased, and the poor. They put others ahead of themselves, are sharing of all they have, and emphasize the spiritual nature of life over the welfare of the material body.\nPriests of Ilmater who are on a quest to aid others can be recognized by their hair shirts, vests of coarse fur worn against the bare skin. It is taboo to harm such priests as they go about their duties, such as when they administer to the wounded on a battlefield. The taboo is so strongly felt among humans that other races respect the custom. Even orcs and goblinoids will avoid directly attacking a peaceful priest of Ilmater, as long as the priest administers to their fallen warriors as well.\nMost folk deeply respect the work and the sacrifice of Ilmater's faith, and lend aid to such endeavors where they can. When a temple of Ilmater sends its faithful to help refugees of war or victims of plague, their willingness to sacrifice their own well-being always prompts ordinary people to support them, whether they are inspired or shamed into action.",
       "symbol": "Hands bound at the wrist with red cord",
       "portfolios": ["life", "twilight"],
@@ -2119,14 +2392,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2165,13 +2437,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2182,7 +2458,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2198,36 +2473,50 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Istishia",
       "key": "Istishia",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
       "titles": ["God of Water"],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "description": "",
       "symbol": "",
       "portfolios": ["water", "tempest"],
@@ -2237,14 +2526,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2283,13 +2571,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2300,7 +2592,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2316,36 +2607,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Jergal",
       "key": "Jergal",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Scribe of the Dead",
+        "The Final Scribe",
+        "The Pitiless One",
+        "The Bleak Seneschal"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Scribe of the Dead", "The Final Scribe", "The Pitiless One", "The Bleak Seneschal"],
       "description": "Legend has it that Jergal is an ancient deity. The story goes that in the time of Netheril he was worshiped as the god of death, murder, and strife. Yet with the passing of time, he became bored with his position. Then one day three mortals, each a powerful adventurer, met Jergal in the lands of the dead, determined to destroy him and take his power. Instead, Jergal calmly abdicated his throne of bones and allowed each of the three mortals to take part of his divinity. Thus it was that Bane assumed the portfolio of strife, Myrkul the rulership of the dead, and Bhaal the portfolio of murder. Jergal lost his former stature and became a scribe of the dead.\nJergal is now seen as an uncaring custodian of the dead. He is thought to record the passing of the living and to aid Kelemvor in seeing that souls are properly bound to their appropriate afterlife. He is rarely acknowledged directly, except for being mentioned at funerals and among those who practice the custom of writing the name of the deceased on a sheet of parchment and placing it in the corpse's mouth. This rite is common in places where an individual's grave or tomb isn't marked with the person's name.\nFew people favor Jergal as a deity, and most who do are concerned with the dispensation of the dead in some way. Priests of Jergal serve communities as undertakers and caretakers of gravesites. Jergal has no temples dedicated to him aside from abandoned places devoted to his old, darker incarnation, but his priests are welcome in the temples of Kelemvor, Deneir, and Myrkul. His faithful send their annual recordings of mortality to holy sites where records of that sort are kept.",
       "symbol": "A skull biting a scroll",
       "portfolios": ["death", "knowledge"],
@@ -2355,14 +2665,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2401,13 +2710,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2418,7 +2731,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2434,36 +2746,54 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Kelemvor",
       "key": "Kelemvor",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of the Dead",
+        "The Lord of the Dead",
+        "The Judge of the Damned"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of the Dead", "The Lord of the Dead", "The Judge of the Damned"],
       "description": "Kelemvor is seen as a just, fair, and comforting god of death. Death comes to all, and when it occurs Kelemvor is there to take each soul by the hand and lead it to the proper afterlife. Kelemvor's priests teach that those who revere the gods according to the rites of their religion have done their proper service and will be offered the afterlife they seek.\nThe faithful of Kelemvor provide people with peaceful transitions into the care of the Lord of the Dead. They help the dying put their affairs in order, and they officiate at funeral rites for those who can't afford the lavish ceremonies of their faith. The tenets of Kelemvor's faithful compel them to forestall or prevent untimely deaths whenever possible. Different sects and worshipers define \"untimely\" in different ways. One group might concentrate on stopping the spread of disease, another on the prevention of murder, and yet another on eliminating the scourge of the undead. In fact, all the faithful of Kelemvor despise the undead and work to some degree to eliminate them, for undead of any sort are seen as an abomination of the natural order. This belief obviously puts Kelemvor's faithful at odds with necromancers, priests of Myrkul, and others who promote the creation of the undead, and it also causes conflict from unexpected sources. For instance, priests of Kelemvor routinely destroy any writings about the creation of the undead that they find - an act that offends those who value knowledge for its own sake, such as the faithful of Oghma and Deneir. And there also exist undead that aren't evil, such as the baelnorn, which the elves consider holy. Kelemvor's devotees seek the end of such beings regardless of that fact.Kelemvor is seen as a just, fair, and comforting god of death. Death comes to all, and when it occurs Kelemvor is there to take each soul by the hand and lead it to the proper afterlife. Kelemvor's priests teach that those who revere the gods according to the rites of their religion have done their proper service and will be offered the afterlife they seek.\nThe faithful of Kelemvor provide people with peaceful transitions into the care of the Lord of the Dead. They help the dying put their affairs in order, and they officiate at funeral rites for those who can't afford the lavish ceremonies of their faith. The tenets of Kelemvor's faithful compel them to forestall or prevent untimely deaths whenever possible. Different sects and worshipers define \"untimely\" in different ways. One group might concentrate on stopping the spread of disease, another on the prevention of murder, and yet another on eliminating the scourge of the undead. In fact, all the faithful of Kelemvor despise the undead and work to some degree to eliminate them, for undead of any sort are seen as an abomination of the natural order. This belief obviously puts Kelemvor's faithful at odds with necromancers, priests of Myrkul, and others who promote the creation of the undead, and it also causes conflict from unexpected sources. For instance, priests of Kelemvor routinely destroy any writings about the creation of the undead that they find - an act that offends those who value knowledge for its own sake, such as the faithful of Oghma and Deneir. And there also exist undead that aren't evil, such as the baelnorn, which the elves consider holy. Kelemvor's devotees seek the end of such beings regardless of that fact.",
       "symbol": "Upright skeletal arm holding balanced scales",
       "portfolios": ["death", "grave"],
@@ -2473,14 +2803,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2519,13 +2848,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2536,7 +2869,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2552,36 +2884,50 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Kossuth",
       "key": "Kossuth",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
       "titles": ["God of Fire"],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "description": "",
       "symbol": "",
       "portfolios": ["light"],
@@ -2591,14 +2937,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2670,35 +3015,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Lathander",
       "key": "Lathander",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Dawn and Renewal",
         "The Morninglord",
@@ -2714,16 +3073,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Preserve life"
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Preserve Life", "Radiance of the Dawn"]
         },
-        {
-          "title": "Radiance of the dawn"
-        }
-      ],
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2744,11 +3100,6 @@
           "technocracy": 8,
           "theocracy": 3
         },
-        "professionSector": {
-          "adventuring": 6,
-          "business": 7,
-          "transportation": 4
-        },
         "politicalSource": {
           "absolute monarchy": 5,
           "anarchy": 0,
@@ -2765,15 +3116,26 @@
           "half-orc": 0,
           "halfling": 0,
           "tiefling": 0
+        },
+        "npc": {
+          "professionSector": {
+            "adventuring": 6,
+            "business": 7,
+            "transportation": 4
+          }
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "Novices in the Lathanderian faith were called the Awakened, while clerics were known as Dawnbringers. The full priests took a new name in his service when they were ready to signify that Lathander personally recognized and accepted them. This new name could either be used instead of their old name or simply used only when addressing other Dawnbringers and when in solitary prayer. Other titles included (in ascending order): Dawngreeter, Dawnlord, High Dawnlord, and Dawnmaster, while an elite cleric was referred to as a Morninglord. All followers were required to be of neutral to good alignment.",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2784,7 +3146,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2800,36 +3161,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Leira",
       "key": "Leira",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Illusion",
+        "The Lady of the Mists",
+        "Mistshadow",
+        "The Lady of Deception"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Illusion", "The Lady of the Mists", "Mistshadow", "The Lady of Deception"],
       "description": "Leira has worn many masks, and more than once has been thought to be dead or to be another deity altogether. Perhaps such a reputation is only natural for the goddess of illusion and deception. Her faithful agree that whatever the \"truth\" might be, their Lady takes great delight in the confusion sown by her various incarnations. Even the faithful of Cyric once taught that their god killed Leira, but now they espouse the strange idea that somehow she is his daughter.\nLeira isn't viewed as malicious or as a trickster but is seen as enigmatic, quiet, and retiring. She is credited with inventing Ruathlek, the language of illusionists and the spoken tongue of Nimbral.\nThe faithful of Leira seem to be scarce, although it is difficult to know this for certain, because those who favor her rarely make their inclinations known. Leira is the patron of illusionists and liars. She receives little regular worship except from illusionists, who pray to the Mistshadow for potency in their magic, and con artists, for whom she is a kind of champion. Most people pray to her when they hope to keep something secret, or placate her with a prayer before making an important decision when they fear being deceived. Some folk perform a swirling motion with a finger behind their backs when telling a lie as a way of beseeching her for aid.\nHer priests wear vestments of white and mist-gray, and their faces are covered by smooth, featureless masks. Only in Nimbral do temples to Leira exist, and shrines dedicated to her found across the continent are usually disguised as other kinds of sites, marked with signs that only the faithful would recognize.",
       "symbol": "Point-down triangle containing a swirl of mist",
       "portfolios": ["trickery"],
@@ -2839,14 +3219,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -2885,13 +3264,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -2902,7 +3285,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -2918,36 +3300,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Lliira",
       "key": "LLiira",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Joy",
+        "Our Lady of Joy",
+        "Joybringer",
+        "The Mistress of Revels"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Joy", "Our Lady of Joy", "Joybringer", "The Mistress of Revels"],
       "description": "Lliira is a beloved goddess, a deity of contentment, release, joy, happiness, dance, and freedom. As the patron of festivals, she is honored at any celebration, and dance is the primary way to worship her. The Mistress of Revels is said to abhor violence, and any fighting or drawing of weapons (except in ceremony) at a celebration will cause her to withhold her favor. Her priests and priestesses, known as joybringers, take it as their mission to make other people happy, even if just for a moment.\nHer faithful always wear at least one clothing item of a bright, cheerful color, and her priests' vestments have more in common with festival attire than with somber ecclesial garments. Rubies and sapphires are sacred to Our Lady of Joy, and her priests bless anyone they see wearing such adornments.\nLliira's followers aren't frivolous, however. To them, divine joy is a very real gift to the world of mortals, and one much needed. To that end, they fight those who would bring misery to others. They are fierce against their foes, and joyous revelers when their work is done.",
       "symbol": "Triangle of three six-pointed stars",
       "portfolios": ["life"],
@@ -2957,14 +3358,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3003,13 +3403,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3020,7 +3424,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3036,36 +3439,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Loviatar",
       "key": "Loviatar",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Pain",
+        "The Maiden of Pain",
+        "The Scourge Mistress",
+        "The Willing Whip"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Pain", "The Maiden of Pain", "The Scourge Mistress", "The Willing Whip"],
       "description": "Pain isn't a means to an end for Loviatar's faithful, but an end unto itself. To them, nothing is as transcendent as suffering, and all pain is holy, from the crudest barbarism, to the most sublime torture, to the emotional suffering of the heartbroken or the betrayed.\nThe pain that one feels is proof of the Lady's attention, and so her faithful are notorious self-flagellants. Pain is also a path to power, in terms of both one's ability to inflict it and one's ability to endure it. A cold, cruel demeanor is considered ideal because it best emulates the Scourge Mistress, and for the same reason her faithful appreciate beauty, cultural refinement, and a certain adeptness at manipulation.\nThough temples to Loviatar are rare, her faithful are more numerous than might be expected. Loviatar is the chosen deity of those who inflict pain as a matter of course, including torturers and others who need to break the will of their victims. She is favored by sadists and masochists, and some of her followers form cultish cells of secret adherents. Each of these groups is led by someone who takes pleasure in administering pain and dominating others, supported and backed up by a number of submissive sycophants.\nWorshipers of Loviatar rarely gather in numbers except in the more populous cities. When small cadres of faithful operate quietly in such places, few citizens take notice or raise a fuss if they do witness cult activity. The sufferers who endure the lash, however, aren't always willing participants, and Lovatar's cults sometimes operate secret slavery rings, which can draw the attention of the authorities. The open worship of Loviatar and temples clearly dedicated to her are rarely seen except in lands where slavery is an accepted practice.",
       "symbol": "Nine-tailed barbed scourge",
       "portfolios": ["pain", "death"],
@@ -3075,14 +3497,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3121,13 +3542,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3138,7 +3563,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3154,35 +3578,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Malar",
       "key": "Malar",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of the Hunt", "The Beastlord", "The Black-Blooded One"],
       "description": "Malar epitomizes the dark side of nature, the world that is red in tooth and claw. His faithful believe the hunt is the center point between life and death - the facing off of hunter and prey, forcing the issue of who lives and who dies. People believe that Malar can't be propitiated and knows no mercy, so he receives prayers only from those engaging in a hunt. Such supplicants pray to Malar for two reasons: to beg the aid of his peerless skill as a hunter, or to adopt his fearsome mantle and thus ward off other predators. Malar is the god of those who delight in the hunt, don't shy from bloodshed, and savor the fear of their prey.\nMany lycanthropes consider Malar to be their divine father, as do some other intelligent predators. He has many devotees who are druids and rangers of particularly savage inclination, and many barbarians take Malar as a patron for his ferocity and cruelty. His priests use claw bracers, impressive gauntlets bedecked with stylized claws that jut out from the ends of the fists, as ceremonial weapons.",
       "symbol": "Clawed paw",
@@ -3193,14 +3631,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3239,13 +3676,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3256,7 +3697,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3272,36 +3712,54 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Mask",
       "key": "Mask",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Thieves",
+        "The Lord of Shadows",
+        "The Master of All Thieves"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Thieves", "The Lord of Shadows", "The Master of All Thieves"],
       "description": "Mask is a trickster god, the patron of ne'er-do-wells, spies, and thieves. All that occurs within shadow is in the purview of Mask. People whisper a prayer to Mask whenever stealth is required or intrigue is afoot. Courtiers and diplomats invoke the god's name in hopes of a smooth negotiation.\nThose who favor Mask usually pursue thievery and other forms of acquisition of what belongs to others, such as pickpocketing, burglary, mugging, and con games. Ordinary folk pray to him to avert his eyes from their valuables, but the cautious sometimes employ \"Mask's purse,\" a small, cheap cloth pouch worn in plain sight (thus easily cut or lifted) containing a small offering of coin. By convention, a pickpocket pilfers Mask's purse when encountering another person wearing one, and considers the gain a gift from the god, while the one who lost the purse is grateful to the Lord of Shadows for accepting a respectful sacrifice of a small portion of his goods. Of course, nothing prevents another pickpocket from targeting someone who has lost Mask's purse, but anyone with the ill luck to attract multiple pickpockets in a single outing has probably earned Mask's ire anyway.\nPriests of Mask are usually thieves by profession, and often serve as higher-ups in the local underworld or criminal syndicate. They go by the title of demarche or demarchess, and wear veil-masks when acting in their priestly capacity.",
       "symbol": "Black mask",
       "portfolios": ["trickery"],
@@ -3311,14 +3769,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3357,13 +3814,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3374,7 +3835,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3390,35 +3850,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Mielikki",
       "key": "Mielikki",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "Goddess of Forests",
         "Our Lady of the Forest",
@@ -3433,13 +3907,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Charm animals and plants"
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Charm Animals and Plants"]
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3478,13 +3952,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3495,7 +3973,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3511,36 +3988,54 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Milil",
       "key": "Milil",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Poetry and Song",
+        "The Lord of Song",
+        "The One True Hand of All-Wise Oghma"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Poetry and Song", "The Lord of Song", "The One True Hand of All-Wise Oghma"],
       "description": "Milil is the god of poetry, eloquence, and song. He is a god of creativity and inspiration, of the entire song more than just the lyrics or the music. He represents the finished thought, the result of the process that takes an idea from conception to realization. Milil is most venerated by bards, troubadours, and other entertainers, but anyone preparing to entertain or speak before a crowd might offer Milil a brief prayer for a successful performance. Those who seek inspiration in a creative endeavor also pray to Milil.\nHis icons depict him as a handsome male, sometimes a human, sometimes an elf, and even a half-elf in places (such as Aglarond) that have a large half-elf population. He is variously depicted as young or old, but his identity is always apparent because of his five-stringed harp made of silvery leaves, which he carries constantly. He is the ideal to which all performers aspire: poised and confident, winningly charismatic, and a source of inspiration for those who listen to him. He is said to have total recall of anything he hears or that is spoken while music plays, as well as utmost skill at improvisation.\nHoly sites dedicated to Milil are often found in performance venues and schools of music. Whether the site is a vast concert hall or a small choral chamber, it must have excellent acoustic qualities. Milil's priests are patrons of the arts in addition to being performers themselves, and they frequently act as tutors in the arts of performance at his shrines and temples.\nLike Deneir, Milil is sometimes thought of as being in service to Oghma. In these portrayals of the deity, Milil is the god's left hand, also referred to as the One True Hand. This expression isn't meant to denigrate the right hand (Deneir); rather, it stems from the fact that left-handedness is more often associated with great artistic ability and the belief that the greatest art comes from the acceptance of truth.",
       "symbol": "Five-stringed harp made of leaves",
       "portfolios": ["light", "poetry", "song", "music"],
@@ -3550,14 +4045,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3596,13 +4090,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3613,7 +4111,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3629,36 +4126,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Myrkul",
       "key": "Myrkul",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Death",
+        "The Lord of Bones",
+        "Old Lord Skull",
+        "The Reaper"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Death", "The Lord of Bones", "Old Lord Skull", "The Reaper"],
       "description": "Myrkul is an ancient god, one of three former mortals who were raised to deityhood when Jergal grew weary of his divine duties and distributed his influence between them. Myrkul became the god of death and the dead, and ruled over the City of the Dead for centuries until he, in turn, was slain. In time Myrkul returned, for can death itself truly ever die? Myrkul's faithful see him as the Reaper, who lays claim to souls and brings them to Kelemvor to be judged.\nMyrkul is a deity of death, decay, old age, exhaustion, dusk, and autumn. He's the god of the ending of things and hopelessness, as much as Lathander is the god of beginnings and hope. Folk don't pray to Myrkul so much as dread him and blame him for aching bones and fading vision. Myrkul is thought to be passionless and uncaring even of his most devout worshipers. Those who take Myrkul as a patron tend to be morose, taciturn, and obsessed with the dead and the undead. Like many followers of Kelemvor and Jergal, priests of Myrkul serve as undertakers and typically keep their patron's identity secret.\nShrines to Myrkul or engravings of his holy symbol appear in many places where humans bury their dead, but full-fledged temples are rare. The few that exist are hallowed places where the dead from hundreds of miles around are brought for internment, even if they were not of Myrkul's faith. There is little space set aside for the living in such a location, usually a single modest shrine, but its catacombs and ossuaries are vast. In the deepest chamber of each temple rests a throne, and upon that throne sits the doomwarden - the preserved corpse of the most revered saint in the history of the temple (often its founder). Initiates to the faith are brought to kneel before a temple's doomwarden, where they must spend a night and a day fasting and meditating in complete darkness.",
       "symbol": "White human skull",
       "portfolios": ["death"],
@@ -3668,14 +4184,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3714,13 +4229,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3731,7 +4250,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3747,36 +4265,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Mystra",
       "key": "Mystra",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Magic",
+        "The Lady of Mysteries",
+        "Our Lady of Spells",
+        "The Mother of All Magic"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Magic", "The Lady of Mysteries", "Our Lady of Spells", "The Mother of All Magic"],
       "description": "Mystra is the goddess of magic, and with that the goddess of possibilities. She is venerated by mages and by those who use magic or magical objects in their daily lives. She also receives the prayers of those who find magic wondrous or encounter magic they fear. Mystra is the goddess of the essential force that makes all spellcasting possible. She provides and tends the Weave, the conduit through which mortal spellcasters and magical crafters can safely access the raw force of magic.\nThe faith of Mystra is pervasive in Faerûn, which is to be expected for a land as touched by magic as it is. Her worshipers include those who use magic or work closely with it, such as alchemists and sages. The blue-clad priests of Mystran temples count wizards and sorcerers among their numbers, as well as the occasional bard. The goal of Mystra's faithful is simple: that magic be preserved and promulgated throughout the Realms. It isn't unusual for her followers to keep an eye out for those who demonstrate high potential for using magic and help arrange for such persons to find tutelage with a suitable mentor.",
       "symbol": "Circle of seven stars, nine stars encircling a flowing red mist, or a single star",
       "portfolios": ["arcana", "knowledge"],
@@ -3786,14 +4323,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3832,13 +4368,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3849,7 +4389,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3865,35 +4404,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Oghma",
       "key": "Oghma",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Knowledge", "The Binder", "The Lord of Knowledge"],
       "description": "Oghma is the god of inspiration, invention, and knowledge. Above all else, Oghma represents knowledge in its most supreme, raw form - the idea. An aphorism cited by his faithful about this concept serves them as a prayer when it is repeated aloud: \"An idea has no heft but it can move mountains. An idea has no authority but it can dominate people. An idea has no strength but it can push aside empires. Knowledge is the greatest tool of the mortal mind, outweighing anything made by mortal hands. Before anything else can exist, the idea must exist.\"\nOghma's faithful spread knowledge and literacy as widely as possible, believing that minds ought never to be shackled by ignorance and thus not be able to bequeath the benefit they might otherwise provide their fellows. Not surprisingly, those who follow Oghma oppose those who foster deceit, trickery, and ignorance.\nFolk of many professions favor the Binder: wizards, cartographers, artists, bards, clerks, inventors, sages, scribes, and all manner of others who uncover, preserve, and create knowledge and learning. The worship of Oghma was, at one point, one of the few organized faiths in Faerûn that had an established orthodoxy and a complete network of temples that adhered to that orthodoxy. Schisms during the Time of Troubles shattered that network, and now the structures that house the faith are individual temples or small networks of allied temples, much in the manner of other faiths.",
       "symbol": "Blank scroll",
@@ -3904,14 +4457,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -3950,13 +4502,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -3967,7 +4523,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -3983,36 +4538,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Savras",
       "key": "Savras",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Divination and Fate",
+        "The All-Seeing",
+        "The Third Eye",
+        "Divination's Lord"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Divination and Fate", "The All-Seeing", "The Third Eye", "Divination's Lord"],
       "description": "Savras is a god of divination and fortunetelling. Few people worship him, but many pray to him when performing small rituals of foresight. For example, young men and women sometimes attempt to divine the names of their future spouses by saying a rhyming chant that calls upon Savras while gazing in a mirror.\nSavras has no currently active temples in Faerûn, and his shrines are few and far between, tucked away in the corners of libraries and scriptoria. Despite this lack of prominence, certain folk pay regular homage to Savras, including investigators, diviners, judges, and others who have a need to uncover the truth. Such individuals can sometimes be identified by the elaborate staffs they carry in homage to Savras. According to legend, Savras was trapped in Azuth's staff for ages. Azuth eventually freed Savras so long as Savras swore fealty, and today the staff is a potent symbol for those who revere Savras. Devout worshipers take great pains to decorate and embellish their staffs, each hoping that Savras might find it a welcoming place to stop for a time.",
       "symbol": "Crystal ball containing many kinds of eyes",
       "portfolios": ["arcana", "knowledge", "dinviation", "fate"],
@@ -4022,14 +4596,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4068,13 +4641,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4085,7 +4662,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4101,53 +4677,78 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Selùne",
       "key": "Selùne",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of the Moon",
+        "Our Lady of Silver",
+        "The Moonmaiden",
+        "The Night White Lady"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of the Moon", "Our Lady of Silver", "The Moonmaiden", "The Night White Lady"],
       "description": "Selûne is thought to be among the most ancient of Faerûn's deities. Most humans in Faerûn consider the moon in the sky to literally be the goddess gazing down on the world, and the trailing motes of light behind it her tears. She is also a goddess of stars and navigation as well as motherhood and reproductive cycles. She is seen as a calm power, frequently venerated by female humans as well as by a mix of other folk: navigators and sailors, those who work honestly at night, those seeking protection in the dark, the lost, and the questing.\nThere are many legends about Selûne, chief among them being the tale of the battle at the beginning of time between Selûne and her sister, Shar. The Tears of Selûne, the cluster of starry lights that follow the moon around the sky, are thought to be brought about by the goddess's joy, sorrow, or both.\nMilk, a symbol of motherhood, is used in many rites performed by the worshipers of Selûne, as are trances and meditation. Those who favor her typically set a bowl of milk outside on each night of the full moon.",
       "symbol": "Pair of eyes surrounded by seven stars",
-      "portfolios": ["knowledge", "life", "twilight", "moon", "stars", "navigation"],
+      "portfolios": [
+        "knowledge",
+        "life",
+        "twilight",
+        "moon",
+        "stars",
+        "navigation"
+      ],
       "domains": ["knowledge", "life", "twilight"],
       "alignment": "Chaotic Good",
       "status": "alive",
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4186,13 +4787,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4203,7 +4808,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4219,36 +4823,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Shar",
       "key": "Shar",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Darkness and Loss",
+        "The Mistress of the Night",
+        "The Dark Lady",
+        "Our Lady of Loss"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Darkness and Loss", "The Mistress of the Night", "The Dark Lady", "Our Lady of Loss"],
       "description": "The dark twin of Selûne, Shar is the goddess of darkness, both in its physical form and as it exists in the minds and souls of mortals. People worship Shar as the goddess of night, secrets, loss, and forgetfulness. She represents pains hidden but not forgotten, and vengeances carefully nurtured away from the light. She is said to have the power to make folk forget their pain or become inured to a loss, and many people in distress pray to Shar for such a blessing.\nShar is revered by those who must venture into dark places and so pray to her for protection, such as miners, as well as by those who have fallen into melancholy and despair, who wish to forget something, or who have lost something and wish to recover it. Priests drawn to serve Shar often nurture their own deep wounds or dark secrets, which in their minds makes them best suited to console those who suffer from a similar ill. Throughout the world's history, many followers of Shar have done dark deeds in her name - most notably the shadovar of Netheril, an entire society dedicated to Shar. The tragedies and losses brought about by the fanaticism of her followers have caused many places to outlaw her worship and thus driven most of her priests into secrecy, but such prohibitions only heighten the priests' umbrage at authorities and make the faithful a focal point for rebellion and revenge against whoever rules.",
       "symbol": "Black disk encircled with a purple border",
       "portfolios": ["death", "trickery"],
@@ -4258,14 +4881,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4304,13 +4926,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4321,7 +4947,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4337,36 +4962,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Silvanus",
       "key": "Silvanus",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Wild Nature",
+        "Oak Father",
+        "The Old Oak",
+        "Old Father Tree"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["God of Wild Nature", "Oak Father", "The Old Oak", "Old Father Tree"],
       "description": "Silvanus represents the entirety of nature, deserts as well as forests, sharks as much as deer. But folk in the North, who contend with the dangers of forests, mountains, and plains, see Silvanus more as a god of those places. Silvanus is thought of as a grim and severe father figure who metes out flood and drought, fire and ice, and life and death in the wilderness. In legends he often commands other nature deities, dealing out rewards and punishments to them as is fitting.\nNature and its impartial fairness is central to the dogma of Silvanus's faith. His priests seek to know the total situation, to view the macrocosm; their viewpoint isn't confined to one person's or one nation's idea of what is best. The loss of a farming community to goblin raids is a tragedy for some, but the event provides an opportunity for the wilderness to grow up and make the land fertile again, which in turn provides new challenges for those who would return to tame it.\nThe creed of Silvanus dictates that nature's glory must be preserved not merely because nature is beautiful, but because wild nature is the true state of the world. Its expanses refresh and revitalize the mortal soul, and give breath to all the world. Many of his faithful oppose the expansion of settlements into wild places, and consider excessive consumption of natural resources to be not only wasteful but blasphemous.\nSilvanus often receives veneration from travelers in wild lands, explorers, and residents of rural communities far from the protection of a local lord or a great city. The oak leaf is Silvanus's symbol, and a grove of oak trees within a village or on its outskirts is often dedicated as a shrine to him. In rural places where oak trees don't grow, an oak leaf etched into the bark of another kind of tree signifies a sacred site.",
       "symbol": "Oak leaf",
       "portfolios": ["nature"],
@@ -4376,14 +5020,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4422,13 +5065,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4439,7 +5086,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4455,53 +5101,70 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Sune",
       "key": "Sune",
       "aliases": ["Sune Firehair"],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Love and Beauty",
+        "Lady Firehair",
+        "The Lady of Love",
+        "The Princess of Passion"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Love and Beauty", "Lady Firehair", "The Lady of Love", "The Princess of Passion"],
       "description": "Sune Firehair is a deity of passion and the delights of the senses. She is the goddess of beauty in all its forms - not just pleasing sights, but also enchanting sounds, luxurious tastes and scents, and the exquisite pleasures of the flesh, from a lover's caress to the brush of silk on the skin. Her worshipers seek out these pleasures in life, not out of mere decadence, but because the experience of pleasure is the touch of Sune herself.\nThe followers of Sune have a reputation as hedonists, and so they are, to a degree. More than that, her priests foster beauty in the world. They do so by creating art, by acting as patrons for promising talents, and by investing in merchants who bring luxuries to far-off places that have never seen satin or tasted a luscious wine.\nHer priests consider loveliness to be one of their greatest callings, and all are trained in comportment, fashion, and cosmetics. Indeed, so talented are Sune's priests in the creation of beautiful appearances that many take pride in their ability to present themselves as stunningly attractive examples of either gender.\nBut beauty is more than skin deep, say the Sunites; it issues from the core of one's being and shows one's true face to the world, whether fair or foul. The followers of Sune are believers in romance, true love winning over all, and following one's heart to one's true destination. Fated matches, impossible loves, and ugly ducklings becoming swans are all in the purview of Sune.\nTemples dedicated to Sune are common in human lands, and they frequently serve as public baths and places of relaxation. A temple usually features a mirrored and well-lit salon where folks can primp, as well as see others and be seen. Where a temple doesn't exist, or in a large city where the nearest temple might be too far to walk to, a small shrine to Sune often stands near a street corner. These sites consist of a mirror hung beneath a small roof where one can say a prayer while checking one's appearance. The spot might feature a shelf or a cupboard holding various perfumes and cosmetics so that those without the funds to purchase such items can still make themselves feel beautiful.",
       "symbol": "Face of a beautiful red-haired woman",
       "portfolios": ["life", "light", "beauty", "love", "passion"],
-      "domains": ["life", "light"],
       "alignment": "Chaotic Good",
       "status": "alive",
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4540,13 +5203,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4557,7 +5224,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4573,36 +5239,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Talona",
       "key": "Talona",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Poison and Disease",
+        "Lady of Poison",
+        "Mistress of Disease",
+        "The Plague-crone"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Poison and Disease", "Lady of Poison", "Mistress of Disease", "The Plague-crone"],
       "description": "One of the most often beseeched of Faerûn's deities, Talona is the goddess of disease and poison, blamed for everything from common illnesses to crop failure to brackish wells to plague. Depicted in temple iconography as a withered crone with a cup or a vase that holds all the varieties of disease and poison, Talona is a fearsome goddess, and many are the prayers that beg her for protection from illness and poison. Various rituals to placate her involve the use of three drops of blood or three tears - to be dropped into a well that has gone bad, dripped into the handkerchief of someone beset by coughing, dropped into a fire made by burning a withered crop, dripped into the mouth of a plague sufferer, and so on. It's common practice to mark a container of poison with her holy symbol, three droplets in a triangle, and during epidemics folk paint the same image on the homes of the infected.\nThough she is often the recipient of prayers, Talona has almost no temples and few cults dedicated to her. A cult or a shrine to her might arise in an area after it suffers from pestilence, when some of those who survived decide to revere her or even become priests.",
       "symbol": "Three teardrops in a triangle",
       "portfolios": ["death", "poison", "disease"],
@@ -4612,14 +5297,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4658,13 +5342,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4675,7 +5363,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4691,53 +5378,66 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Talos",
       "key": "Talos",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["God of Storms", "Stormlord", "The Destroyer"],
       "description": "Talos is the dark side of nature, the uncaring and destructive force that might strike at any time. He is the god of storms, forest fires, earthquakes, tornadoes, and general destruction. He counts the ravager, the raider, the looter, and the brigand among his followers. Those who favor him see life as a succession of random effects in a sea of chaos, so the devout should grab what they can, when they can - for who can say when Talos will strike and send them into the afterlife?\nTalos is portrayed as a broad-shouldered, bearded young man with a single good eye, the other covered by a dark patch. He is said to carry a collection of three staffs, made from the first tree cut down in the world, the first silver smelted, and the first iron forged. He uses these staffs to raise destructive winds, cause terrible storms, and split the land in acts of rage. The three lightning bolts of his holy symbol represent these staffs, and when he vents his wrath on the world, he is thought to hurl them down from the sky as lightning strikes.\nAlthough Talos is a popular deity, his name is invoked more often out of fear than out of reverence. He does have priests, mostly traveling doomsayers, who warn of disasters to come and accept charity in exchange for blessings of protection. Many of his faithful wear a black eyepatch, even if both eyes are intact.",
       "symbol": "Three lightning bolts radiating from a point",
-      "portfolios": ["dawn", "renewal"],
-      "domains": ["life", "light"],
+      "portfolios": ["tempest"],
+      "domains": ["tempest"],
       "alignment": "Chaotic Evil",
       "status": "alive",
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -4776,13 +5476,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4793,7 +5497,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4809,18 +5512,36 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Tempus",
       "key": "Tempus",
       "aliases": [],
@@ -4894,13 +5615,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -4911,7 +5636,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -4927,53 +5651,72 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "The Red Knight",
       "key": "TheRedKnight",
-      "aliases": [""],
+      "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Strategy",
+        "The Lady of Strategy",
+        "The Crimson General",
+        "The Grandmaster of the Lanceboard"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Strategy", "The Lady of Strategy", "The Crimson General", "The Grandmaster of the Lanceboard"],
       "description": "The Red Knight is the goddess of planning and strategy. Those who favor her call themselves the Red Fellowship. They believe wars are won by the best planning, strategy, and tactics. The worship of the Red Knight is filled with doctrine about strategy, such as: \"Every war is a series of battles. Losing one doesn't mean losing the war.\" \"In war, plan for peace. In peace, plan for war.\" \"Seek allies among your enemy's enemies.\"\nWorship of the Red Knight arose among a hero-venerating monastic order of Tempus in Tethyr shortly after the Time of Troubles. The Red Knight has since grown in popularity because of what her followers call the Great Stratagem: for decades, her priests have been traveling to places of warfare to educate generals and kings in the arts of strategy and battlefield tactics. Many of the leaders they approached turned them away at first, but it soon became apparent that those who accepted the counsel of the Crimson General's followers gained a distinct benefit. Grateful victors built temples to the Lady of Strategy, and gradually her faith spread.\nToday, followers of the Red Knight can be found in nearly any land that has seen warfare in the past century. Worshipers of the Red Knight are rare in the general population, but those who revere her can frequently be found among high-ranking commanders of armies, instructors in colleges of war, quartermasters, and the authors of tomes of strategy. Each temple to the Red Knight includes an altar dedicated to Tempus, and so such a place is likely to be frequented by mercenaries and soldiers. A temple is surrounded by a vast pavilion and courtyard, which can be rented by companies of soldiers and mercenaries for practice and training. Her priests believe that drilling one's troops in a temple courtyard is a form of propitiation that the Red Knight looks upon with special favor.",
       "symbol": "Red knight lanceboard piece with stars for eyes",
       "portfolios": ["war", "strategy"],
       "domains": ["war"],
+
       "alignment": "Lawful Neutral",
       "status": "alive",
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5012,13 +5755,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5029,7 +5776,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5045,35 +5791,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Torm",
       "key": "Torm",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Courage and Self-Sacrifice",
         "The Loyal Fury",
@@ -5089,14 +5849,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5135,13 +5894,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5152,7 +5915,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5168,35 +5930,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Tymora",
       "key": "Tymora",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": ["Goddess of Good Fortune", "Lady Luck", "Our Smiling Lady"],
       "description": "Tymora is the bright-faced goddess of fortune, the one to whom gamblers and game-players pray in Faerûn. Our Smiling Lady is said to love none so much as those who gamble with the utmost skill and daring. Yet she is thought to watch over all who take risks to better their fortunes.\nThe battle cry of the followers of Tymora is \"Fortune favors the bold.\" Someone might say words to Tymora before any endeavor in which a little good luck would help, but not when an incidence of bad luck might occur. (On such occasions folk pray to Beshaba to spare them from bad luck; praying to both is thought to anger both goddesses.) One common method of divining the future is to toss a coin to a stranger (typically a beggar) and ask if it's heads. If it is, the coin is left with the stranger as payment for Tymora's favor. If it's not, the stranger can choose to keep it (and the bad luck) or return it.\nThose who favor Tymora - as distinct from folk who invoke her name by mumbling over the dice - tend to be daring sorts. Adventurers and gamblers make up much of their ranks. They all have the belief that what is good about their lives is the result of having both good luck and the bravery to seek it out. Tymora has worshipers among all sorts of folk: the dashing young noble, the risk-taking merchant, the daydreaming field hand, and the scheming ne'er-do-well.\nPriests of Tymora and temples devoted to Lady Luck are scarce, since her faith tends not to stress a need for intermediaries: \"Let the lucky man and the Smiling Lady suss it out,\" as the old saying goes. Shrines to Tymora at gambling parlors aren't unusual, however, and sometimes such establishments attract a priest and effectively become temples.",
       "symbol": "Face-up Coin",
@@ -5207,16 +5983,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "Invoke Duplicity"
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Invoke Duplicity", "Cloak of Shadows"]
         },
-        {
-          "title": "Cloak of Shadows"
-        }
-      ],
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5242,10 +6015,6 @@
           "anarchy": 0,
           "constitutional monarchy": 5
         },
-        "professionSector": {
-          "adventuring": 6,
-          "crime": 5
-        },
         "race": {
           "dragonborn": 0,
           "dwarf": 0,
@@ -5257,15 +6026,25 @@
           "half-orc": 0,
           "halfling": 0,
           "tiefling": 0
+        },
+        "npc": {
+          "professionSector": {
+            "adventuring": 6,
+            "crime": 5
+          }
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5276,7 +6055,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5292,35 +6070,49 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Tyr",
       "key": "Tyr",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "A noble warrior missing his right hand and with his eyes wrapped in a cloth",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "titles": [
         "God of Justice",
         "Grimjaws",
@@ -5336,14 +6128,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5382,13 +6173,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5399,7 +6194,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5415,36 +6209,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Umberlee",
       "key": "Umberlee",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of the Sea",
+        "The Bitch Queen",
+        "The Queen of the Depths",
+        "The Wavemother"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of the Sea", "The Bitch Queen", "The Queen of the Depths", "The Wavemother"],
       "description": "No community that lives by the sea can ignore the influence of Umberlee, the furious goddess whose tempestuous nature reflects and is reflected by the waters of the deep. Any such community makes sure to host festivals to propitiate the Wavemother and seek her favor. Although mercurial in temperament, she can be generous to those who do her honor, as is any great queen.\nThe Bitch Queen is worshiped out of fear instead of adoration, and ship crews offer her gems, tossed over the side, to calm storm-tossed waters. As her most common moniker suggests, she is viewed as capricious and cruel with no firm ethical outlook; the sea is a savage place, and those who travel it had best be willing to pay the price of challenging her domain.\nThere is little in the way of an organized clergy of Umberlee. Her priests roam coastal cities, warning of doom and demanding free passage on ships in return for ensuring the goddess's pleasure. Often they wear the colors of waves and storms, and they decorate themselves with items that remind others of the sea's dangerous nature - a necklace of shark teeth, seaweed wrapped about a human bone, and so on. The preserved hand of a drowned person is thought to be a particularly holy object, and some of her few clerics use such severed hands as holy symbols. Umberlee does have a large number of shrines in the coastal cities, and sailors often leave flowers or small candies at them in hopes that she will spare them on their next voyage. Both Waterdeep and Baldur's Gate have true temples dedicated to Umberlee, staffed largely by the widows of sailors lost at sea.",
       "symbol": "Wave curling left and right",
       "portfolios": ["tempest"],
@@ -5454,14 +6267,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5500,13 +6312,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5517,7 +6333,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5533,36 +6348,50 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Valkur",
       "key": "Valkur",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
       "titles": ["Northlander God of Sailors"],
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
       "description": "",
       "symbol": "A cloud and three lightning bolts",
       "portfolios": ["tempest", "war"],
@@ -5572,14 +6401,13 @@
       "gender": "man",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5618,13 +6446,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5635,7 +6467,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5651,36 +6482,55 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     },
     {
       "objectType": "deity",
-      "passageName": "deityProfile",
+      "passageName": "DeityProfile",
       "name": "Waukeen",
       "key": "Waukeen",
       "aliases": [],
       "rank": "intermediate deity",
       "appearance": "",
-      "history": [
-        {
-          "title": "",
-          "description": ""
-        }
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Trade",
+        "Our Lady of Gold",
+        "The Coinmaiden",
+        "The Merchant's Friend"
       ],
-      "powers": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "titles": ["Goddess of Trade", "Our Lady of Gold", "The Coinmaiden", "The Merchant's Friend"],
       "description": "Waukeen is the goddess of wealth and trade, on both sides of the law. Her most ardent worshipers include shopkeepers, members of trading costers, wealthy merchants, caravan guides, itinerant peddlers, moneychangers, and smugglers. She is interested in anything that increases trade and the flow of money, whether new trade routes, new inventions, or the whim of changing fashion. Those who take Waukeen as a patron can be reliably thought of as greedy, but the Coinmaiden is said to frown upon misers and smile upon the industrious and the profligate, and thus priests who bear her holy symbol find themselves welcome in many towns and cities.\nTemples of Waukeen resemble guildhalls and often serve as meeting places for trade consortiums. Those who follow Waukeen's ethos seek to create more opportunity for all and see competition for wealth as one of society's main means of progress. Thus, the faithful of Our Lady of Gold often find themselves at odds with trade guilds and others who would form monopolies. It's common practice among those who seek Waukeen's favor to set aside a tithe of ten percent of their profits, but rather than being given to a temple, the money is meant to be spent to help a struggling business, to finance a new endeavor, or, if all else fails, on frivolous fun.",
       "symbol": "Upright coin with Waukeen's profile facing left",
       "portfolios": ["knowledge", "trickery"],
@@ -5690,14 +6540,13 @@
       "gender": "woman",
       "shape": "human",
       "race": "god",
-      "channelDivinity": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": []
+      },
       "combat": {
-        "description": ""
+        "title": "Combat",
+        "children": []
       },
       "probabilityWeightings": {
         "economicIdeology": {
@@ -5736,13 +6585,17 @@
           "tiefling": 0
         }
       },
-      "possessions": [],
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
       "followers": {
         "description": "",
         "adherents": [],
         "favouredWeapon": "",
         "holyDays": {
-          "earth": []
+          "title": "Holy Days",
+          "children": []
         }
       },
       "personality": {
@@ -5753,7 +6606,6 @@
         "honest": 50,
         "just": 50,
         "merciful": 50,
-        "pious": 50,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -5769,12 +6621,30 @@
         "colours": [],
         "miscellaneous": []
       },
-      "beliefs": [],
-      "heresies": [],
-      "blessings": [],
-      "curses": [],
-      "allies": [],
-      "enemies": [],
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
       "relationships": [],
       "maxims": []
     }
