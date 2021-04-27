@@ -15,7 +15,7 @@
       "passageName": "DeityProfile",
       "name": "Akadi",
       "key": "Akadi",
-      "aliases": [],
+      "aliases": ["Aerdrie Faenya", "Teylas"],
       "rank": "intermediate deity",
       "appearance": "",
       "history": {
@@ -26,7 +26,7 @@
         "title": "Powers",
         "children": []
       },
-      "titles": ["Goddess of Air"],
+      "titles": ["Goddess of Air", "Queen of Air"],
       "description": "",
       "symbol": "Cloud",
       "portfolios": ["tempest"],
@@ -38,7 +38,7 @@
       "race": "god",
       "channelDivinity": {
         "title": "Channel Divinity",
-        "children": []
+        "children": ["Destructive Wrath"]
       },
       "combat": {
         "title": "Combat",
@@ -46,36 +46,33 @@
       },
       "probabilityWeightings": {
         "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
+          "capitalism": 0,
+          "communism": 0,
+          "feudalism": 0,
+          "primitivism": 5,
+          "syndicalism": 0
         },
         "politicalIdeology": {
-          "autocracy": 8,
-          "kleptocracy": 5,
-          "meritocracy": 5,
-          "militocracy": 5,
-          "magocracy": 5,
-          "oligarchy": 5,
-          "sophocracy": 5,
-          "technocracy": 8,
-          "theocracy": 3
+          "autocracy": 0,
+          "kleptocracy": 0,
+          "meritocracy": 0,
+          "militocracy": 0,
+          "magocracy": 0,
+          "oligarchy": 0,
+          "sophocracy": 0,
+          "technocracy": 0,
+          "theocracy": 1
         },
         "politicalSource": {
-          "absolute monarchy": 5,
-          "anarchy": 0,
-          "constitutional monarchy": 5
         },
         "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
-          "elf": 0,
+          "dragonborn": 0,
+          "dwarf": 0,
+          "elf": 2,
           "gnome": 0,
           "goblin": 0,
-          "human": 0,
-          "half-elf": 0,
+          "human": 2,
+          "half-elf": 2,
           "half-orc": 0,
           "halfling": 0,
           "tiefling": 0
@@ -91,7 +88,7 @@
         "favouredWeapon": "",
         "holyDays": {
           "title": "Holy Days",
-          "children": []
+          "children": ["Midsummer"]
         }
       },
       "personality": {
@@ -109,12 +106,12 @@
       },
       "associations": {
         "avatars": [],
-        "animals": [],
+        "animals": ["Flying creatures"],
         "plants": [],
         "places": [],
-        "monsters": [],
+        "monsters": ["Air elementals", "Ice serpents", "Air genasi"],
         "gems": [],
-        "colours": [],
+        "colours": ["Light blue and gray", "White"],
         "miscellaneous": []
       },
       "beliefs": {
@@ -135,11 +132,11 @@
       },
       "allies": {
         "title": "Allies",
-        "children": []
+        "children": ["Quorlinn", "Syranita"]
       },
       "enemies": {
         "title": "Enemies",
-        "children": []
+        "children": ["Grumbar"]
       },
       "relationships": [],
       "maxims": []
@@ -163,13 +160,16 @@
       "titles": [
         "God of the Sun",
         "The Keeper of the Eternal Sun",
+        "The Keeper of the Golden Sun",
+        "The Keeper of the Yellow Sun",
+        "The Keeper of Law",
         "The Light of Law",
         "The Yellow God"
       ],
       "description": "The rule of law and the glory of the sun are both in Amaunator's dominion. His priests help establish bureaucracies and lawful order in communities. They often witness contracts and signed agreements, stamping such documents with the sun-symbol of Amaunator to signify their validity.\nHis priests teach that Amaunator has died and been reborn time and again. Like the sun, he might pass into the realm of darkness, but inevitably his bright gaze will fall on the world once again. Amaunator is seen as a stern and unforgiving deity, not unlike Silvanus in comportment, but his concern isn't for the balance of life - he cares that things proceed according to the celestial order, that promises are kept, and that the rule of law persists.\nFarmers and travelers beseech him when they pray for rain or sun, as do any others looking for a favorable change in the weather. But the most common form of propitiation to Amaunator is the practice of swearing oaths, signing contracts, and declaring laws under the light of the sun. So ingrained in the common perception is the connection between a solemn oath and the sun that those engaged in closing deals or issuing edicts often pause and wait for a passing cloud to clear the sun before completing the transaction or pronouncement.",
       "symbol": "Golden Sun",
       "portfolios": ["law", "the sun"],
-      "domains": ["order", "light"],
+      "domains": ["life", "light"],
       "alignment": "Lawful Neutral",
       "status": "alive",
       "gender": "man",
@@ -185,11 +185,11 @@
       },
       "probabilityWeightings": {
         "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
+          "capitalism": 0,
+          "communism": 0,
+          "feudalism": 5,
+          "primitivism": 0,
+          "syndicalism": 0
         },
         "politicalIdeology": {
           "autocracy": 8,
@@ -208,8 +208,8 @@
           "constitutional monarchy": 5
         },
         "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
+          "dragonborn": 0,
+          "dwarf": 0,
           "elf": 0,
           "gnome": 0,
           "goblin": 0,
@@ -244,11 +244,11 @@
       "personality": {
         "chaste": 50,
         "energetic": 50,
-        "forgiving": 50,
+        "forgiving": 0,
         "generous": 50,
-        "honest": 50,
-        "just": 50,
-        "merciful": 50,
+        "honest": 100,
+        "just": 100,
+        "merciful": 0,
         "prudent": 50,
         "temperate": 50,
         "trusting": 50,
@@ -256,11 +256,27 @@
       },
       "associations": {
         "avatars": [],
-        "animals": [],
-        "plants": [],
+        "animals": [
+          "Birds of prey, especially sun-falcons",
+          "Cream-colored cats",
+          "Pure white wolves",
+          "Tan dogs",
+          "White stallions"],
+        "plants": [
+          "Golden lillies",
+          "Sunflowers",
+          "Yellow-eyed daisies"
+        ],
         "places": [],
-        "monsters": [],
-        "gems": [],
+        "monsters": [
+          "Dragons (emerald, sapphire, and steel)",
+          "Golems",
+          "Takos"
+        ],
+        "gems": [
+          "Any red-colored gem",
+          "Topaz"
+        ],
         "colours": [],
         "miscellaneous": []
       },
@@ -297,7 +313,7 @@
       "name": "Asmodeus",
       "key": "Asmodeus",
       "aliases": [],
-      "rank": "intermediate deity",
+      "rank": "greater deity",
       "appearance": "",
       "history": {
         "title": "History",
@@ -311,11 +327,18 @@
         "God of Indulgence",
         "The Lord of the Ninth",
         "The Cloven",
-        "Old Hoof and Horn"
+        "Old Hoof and Horn",
+        "Supreme Master of the Nine Hells",
+        "Lord of Nessus"
+        "The Lord of the Ruby Rod"
+        "Lord of Lies"
+        "Prince of Evil"
+        "The Archfiend"
+        "The Raging Fiend"
       ],
       "description": "Open worship of Asmodeus began roughly a century ago when small cults with charismatic leaders sprang up in the aftermath of the Spellplague. That catastrophe left many asking why the gods were angry or had abandoned them. To those questioners, the faithful of Asmodeus provided answers and a god who would forgive all their faults. Still, for the next few decades, the Cult of Asmodeus struggled for acceptance.\nIn the beliefs of the people of the North - which coincide with many tales told by dwarves, elves, and others - Asmodeus is Lord of the Ninth, the leader of all devils of the Nine Hells. People know devils to be iron-minded and silver-tongued purveyors of temptation, whose price for their boons can be as dear as one's soul. It's said that when a soul waits on the Fugue Plane for a deity to take it to its appropriate afterlife, devils approach the soul and offer it a chance at power and immortal pleasures. All a soul needs to do is take one step out of the dust and the milling crowd and put a foot on the first rung of the infernal ladder that represents the hierarchy of the Nine Hells.\nThe faithful of Asmodeus acknowledge that devils offer their worshipers a path that's not for everyone - just as eternally basking in the light of Lathander or endlessly swinging a hammer in the mines of Moradin might not be for everyone. Those who serve Asmodeus in life hope to be summoned out of the moaning masses of the Fugue Plane after death. They yearn for the chance to master their own fates, with all of eternity to achieve their goals.\nTo those not so dedicated, priests of Asmodeus offer the prospect of a reprieve in the afterlife. All souls wait on the Fugue Plane for a deity's pleasure, which determines where a soul will spend the rest of eternity. Those who lived their lives most in keeping with a deity's outlook are taken first. Others, who have transgressed in the eyes of their favored god or have not followed any particular ethos, might wait centuries before Kelemvor judges where they go. People who fear such a fate can pray to Asmodeus, his priests say, and in return a devil will grant a waiting soul some comfort.\nToday, shrines to Asmodeus are still rare and temples are almost unheard of, but many folk have adopted the habit of asking Asmodeus for reprieve from their sins. After transgressing against a god in some way, a person prays to Asmodeus for something to provide respite during the long wait. Asmodeus is known to grant people what they wish, and thus people pray for all the delights and distractions they desire most from life. Those who transgress in great ways often ask Asmodeus to hide their sins from the gods, and priests say that he will do so, but with a price after death.",
       "symbol": "Three inverted triangles arranged in a long triangle",
-      "portfolios": ["knowledge", "order", "trickery"],
+      "portfolios": ["knowledge", "order", "trickery", "indulgence"],
       "domains": ["knowledge", "order", "trickery"],
       "alignment": "Lawful Evil",
       "status": "alive",
@@ -330,6 +353,459 @@
           "Invoke Duplicity",
           "Cloak of Shadows",
           "Order's Demand"
+        ]
+      },
+      "combat": {
+        "title": "Combat",
+        "children": []
+      },
+      "probabilityWeightings": {
+        "economicIdeology": {
+          "capitalism": 6,
+          "communism": 2,
+          "feudalism": 3,
+          "primitivism": 3,
+          "syndicalism": 3
+        },
+        "politicalIdeology": {
+          "autocracy": 8,
+          "kleptocracy": 5,
+          "meritocracy": 2,
+          "militocracy": 8,
+          "magocracy": 8,
+          "oligarchy": 8,
+          "sophocracy": 5,
+          "technocracy": 5,
+          "theocracy": 8
+        },
+        "politicalSource": {
+          "absolute monarchy": 5,
+          "anarchy": 0,
+          "constitutional monarchy": 5
+        },
+        "race": {
+          "dragonborn": 0,
+          "dwarf": 2,
+          "elf": 2,
+          "gnome": 2,
+          "goblin": 0,
+          "human": 2,
+          "half-elf": 0,
+          "half-orc": 0,
+          "halfling": 2,
+          "tiefling": 1
+        }
+      },
+      "possessions": {
+        "title": "Possessions",
+        "children": ["Rod of Asmodeus"]
+      },
+      "followers": {
+        "description": "",
+        "adherents": [],
+        "favouredWeapon": "",
+        "holyDays": {
+          "title": "Holy Days",
+          "children": []
+        }
+      },
+      "personality": {
+        "chaste": 20,
+        "energetic": 50,
+        "forgiving": 20,
+        "generous": 10,
+        "honest": 50,
+        "just": 50,
+        "merciful": 10,
+        "prudent": 50,
+        "temperate": 20,
+        "trusting": 20,
+        "valorous": 50
+      },
+      "associations": {
+        "avatars": [],
+        "animals": [],
+        "plants": [],
+        "places": [],
+        "monsters": [],
+        "gems": [],
+        "colours": [],
+        "miscellaneous": []
+      },
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
+      "relationships": [],
+      "maxims": []
+    },
+    {
+      "objectType": "deity",
+      "passageName": "DeityProfile",
+      "name": "Auril",
+      "key": "Auril",
+      "aliases": [
+        "Aurilandür",
+        "Alaphaer",
+        "Saukuruk"
+      ],
+      "rank": "lesser deity",
+      "appearance": "",
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "Goddess of Winter",
+        "The Frostmaiden",
+        "Lady Frostkiss",
+        "Icedawn",
+        "The Cold Goddess",
+        "Frost Sprite Queen",
+        "Stormbringer"
+      ],
+      "description": "Auril, the merciless goddess of cold and winter, is worshiped mostly in regions that are affected by deep winters. Folk propitiate Auril with offerings and prayers for mercy. Her priests warn others to prepare for winter, and to stock extra provisions in order to have some to spare as offerings to the goddess.\nFew favor Auril except for those who make their livelihood from winter or those who truly love the season. Her rare priests tend to be folk who would, but for their status, likely be outcasts from their communities. They practice celibacy and remain aloof from others when not serving in their official capacity.\nLuskan has a temple dedicated to Auril, the whitespired Winter Palace. The structure is a roofless array of pillars and arches carved of white stone. The rituals of Auril's worship often seem cruel to outsiders. In Luskan, visitors gather at the temple to watch the frequent \"wet parades,\" a ritual in which supplicants don garments packed with ice. They then journey between six white pillars known as the Kisses of Auril, which are dispersed throughout the city. The worshipers move from pillar to pillar, chanting prayers to the goddess. Upon reaching a pillar, a supplicant must climb it and then \"kiss the lady,\" touching lips to a rusty iron plate at the top. In winter, these events resemble frantic footraces, with the added risk of frostbite and injuries caused by falling from the slippery pillars. The parade runners are cheered on by patrons who come out of nearby taverns to place bets on the stamina of the participants. Those who finish the race are thought to have helped make the winter easier, and they rarely have to pay for food or ale all winter long.",
+      "symbol": "Six-pointed snowflake",
+      "portfolios": ["nature", "tempest"],
+      "domains": ["nature", "tempest"],
+      "alignment": "Neutral Evil",
+      "status": "alive",
+      "gender": "woman",
+      "shape": "human",
+      "race": "god",
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": ["Charm Animals and Plants", "Destructive Wrath"]
+      },
+      "combat": {
+        "title": "Combat",
+        "children": []
+      },
+      "probabilityWeightings": {
+        "economicIdeology": {
+          "capitalism": 6,
+          "communism": 2,
+          "feudalism": 3,
+          "primitivism": 3,
+          "syndicalism": 3
+        },
+        "politicalIdeology": {
+          "autocracy": 8,
+          "kleptocracy": 5,
+          "meritocracy": 5,
+          "militocracy": 5,
+          "magocracy": 5,
+          "oligarchy": 5,
+          "sophocracy": 5,
+          "technocracy": 8,
+          "theocracy": 3
+        },
+        "politicalSource": {
+          "absolute monarchy": 5,
+          "anarchy": 0,
+          "constitutional monarchy": 5
+        },
+        "race": {
+          "dragonborn": 1,
+          "dwarf": 5,
+          "elf": 0,
+          "gnome": 0,
+          "goblin": 0,
+          "human": 0,
+          "half-elf": 0,
+          "half-orc": 0,
+          "halfling": 0,
+          "tiefling": 0
+        }
+      },
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
+      "followers": {
+        "description": "",
+        "adherents": [],
+        "favouredWeapon": "",
+        "holyDays": {
+          "title": "Holy Days",
+          "children": [
+            "Midwinter Night"
+          ]
+        }
+      },
+      "personality": {
+        "chaste": 50,
+        "energetic": 50,
+        "forgiving": 50,
+        "generous": 50,
+        "honest": 50,
+        "just": 50,
+        "merciful": 50,
+        "prudent": 50,
+        "temperate": 50,
+        "trusting": 50,
+        "valorous": 50
+      },
+      "associations": {
+        "avatars": [],
+        "animals": [],
+        "plants": [],
+        "places": [],
+        "monsters": [],
+        "gems": [],
+        "colours": [],
+        "miscellaneous": []
+      },
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
+      "relationships": [],
+      "maxims": []
+    },
+    {
+      "objectType": "deity",
+      "passageName": "DeityProfile",
+      "name": "Azuth",
+      "key": "Azuth",
+      "aliases": [],
+      "rank": "lesser deity",
+      "appearance": "",
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Wizardry",
+        "The High One",
+        "The Lord of Spellcraft",
+        "The First Magister",
+        "Patron of Wizards",
+        "Patron of Mages",
+        "Lord of Spells",
+        "Hand of Sorcery"
+      ],
+      "description": "Few pay homage to Azuth aside from wizards. For them, the High One is the ultimate embodiment of all that they hold dear.\nMystra serves as goddess of magic; Oghma is god of knowledge; and Deneir is god of writing and language. Azuth takes aspects of these general fields and applies them to the specific practices of wizards. For instance, while Mystra is the deity who represents the soul, art, and wonder of magic, Azuth is god of a wizard's long hours of study, exacting standards of movement and speech, and cramped, ink-stained fingers. Wizards invoke Azuth when they scribe scrolls, inscribe magic circles, attempt to memorize spells, and even when they cast spells. Often this acknowledgment comes in the form of silently forming Azuth's holy symbol, pointing the index finger of the left hand to the sky. For many wizards, the gesture is so commonplace in their lives that it becomes an unconscious habit.\nTemples dedicated to Azuth are scarce, and clerics of the deity are extremely rare. Even in magic-saturated Halruaa, only a handful of holy places are dedicated to Azuth. Sometimes a statue or a shrine dedicated to him stands in a corner of a temple to Mystra or another deity. More often, a wizard has a personal shrine at home. Azuth is represented at such sites as a hooded and bearded figure with left hand held high, finger pointed up. Sometimes he is represented by merely the hand. In either case, the finger often serves as a candleholder or as the point of origin for a light spell.",
+      "symbol": "Left hand pointing upward, outlined in fire",
+      "portfolios": ["arcana", "knowledge"],
+      "domains": ["arcana", "knowledge"],
+      "alignment": "Lawful Neutral",
+      "status": "dead",
+      "gender": "man",
+      "shape": "human",
+      "race": "god",
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": [
+          "Arcane abjuration",
+          "Knowledge of the ages",
+          "Read thoughts"
+        ]
+      },
+      "combat": {
+        "title": "Combat",
+        "children": []
+      },
+      "probabilityWeightings": {
+        "economicIdeology": {
+          "capitalism": 5,
+          "communism": 5,
+          "feudalism": 5,
+          "primitivism": 0,
+          "syndicalism": 5
+        },
+        "politicalIdeology": {
+          "autocracy": 8,
+          "kleptocracy": 5,
+          "meritocracy": 5,
+          "militocracy": 2,
+          "magocracy": 9,
+          "oligarchy": 5,
+          "sophocracy": 6,
+          "technocracy": 8,
+          "theocracy": 5
+        },
+        "politicalSource": {
+          "absolute monarchy": 5,
+          "anarchy": 0,
+          "constitutional monarchy": 5
+        },
+        "race": {
+          "dragonborn": 0,
+          "dwarf": 0,
+          "elf": 0,
+          "gnome": 0,
+          "goblin": 0,
+          "human": 0,
+          "half-elf": 0,
+          "half-orc": 0,
+          "halfling": 0,
+          "tiefling": 0
+        },
+        "npc": {
+          "professionSector": {
+            "magic": 7
+          }
+        }
+      },
+      "possessions": {
+        "title": "Possessions",
+        "children": []
+      },
+      "followers": {
+        "description": "",
+        "adherents": [],
+        "favouredWeapon": "",
+        "holyDays": {
+          "title": "Holy Days",
+          "children": []
+        }
+      },
+      "personality": {
+        "chaste": 50,
+        "energetic": 50,
+        "forgiving": 50,
+        "generous": 50,
+        "honest": 50,
+        "just": 50,
+        "merciful": 50,
+        "prudent": 50,
+        "temperate": 50,
+        "trusting": 50,
+        "valorous": 50
+      },
+      "associations": {
+        "avatars": [],
+        "animals": [
+          "gray cats",
+          "gray dogs",
+          "gray owls",
+          "gray mice"
+        ],
+        "plants": [],
+        "places": [],
+        "monsters": [
+          "golems",
+          "devas"
+        ],
+        "gems": [],
+        "colours": ["Shimmering gray"],
+        "miscellaneous": []
+      },
+      "beliefs": {
+        "title": "Beliefs",
+        "children": []
+      },
+      "heresies": {
+        "title": "Heresies",
+        "children": []
+      },
+      "blessings": {
+        "title": "Blessings",
+        "children": []
+      },
+      "curses": {
+        "title": "Curses",
+        "children": []
+      },
+      "allies": {
+        "title": "Allies",
+        "children": []
+      },
+      "enemies": {
+        "title": "Enemies",
+        "children": []
+      },
+      "relationships": [],
+      "maxims": []
+    },
+    {
+      "objectType": "deity",
+      "passageName": "DeityProfile",
+      "name": "Bane",
+      "key": "Bane",
+      "aliases": [],
+      "rank": "lesser deity",
+      "appearance": "",
+      "history": {
+        "title": "History",
+        "children": []
+      },
+      "powers": {
+        "title": "Powers",
+        "children": []
+      },
+      "titles": [
+        "God of Tyranny",
+        "The Black Hand",
+        "The Lord of Darkness",
+        "Lord Bane",
+        "The Black Lord", 
+        "The Dark One"
+      ],
+      "description": "Bane has a simple ethos: the strong have not just the right but the duty to rule over the weak. A tyrant who is able to seize power must do so, for not only does the tyrant benefit, but so do those under the tyrant's rule. When a ruler succumbs to decadence, corruption, or decrepitude, a stronger and more suitable ruler will rise.\nBane is vilified in many legends. Throughout history, those who favor him have committed dark deeds in his name, but most people don't worship Bane out of malice. Bane represents ambition and control, and those who have the former but lack the latter pray to him to give them strength. It is said that Bane favors those who exhibit drive and courage, and that he aids those who seek to become conquerors, carving kingdoms from the wilderness, and bringing order to the lawless.mAt many times and in many places in Faerûn, the faithful of Bane have been seen as saviors for their efforts in slaughtering raiders, throwing down corrupt rulers, or saving armies on the brink of defeat. But in just as many other places, the worship of Bane has created or supported cruel dictatorships, aided mercantile monopolies, or brought about the practice of slavery where before it didn't exist.",
+      "symbol": "Upright black hand, thumb and fingers together",
+      "portfolios": ["tyranny", "ambition", "control"],
+      "domains": ["order", "war"],
+      "alignment": "Lawful Evil",
+      "status": "alive",
+      "gender": "man",
+      "shape": "human",
+      "race": "god",
+      "channelDivinity": {
+        "title": "Channel Divinity",
+        "children": [
+          "Guided Strike",
+          "War god's blessing",
+          "Order's demand"
         ]
       },
       "combat": {
@@ -401,424 +877,37 @@
       },
       "associations": {
         "avatars": [],
-        "animals": [],
+        "animals": [
+          "Vultures",
+          "Green-eyed black cats",
+          "Bats",
+          "Black dogs"
+        ],
         "plants": [],
         "places": [],
-        "monsters": [],
-        "gems": [],
-        "colours": [],
-        "miscellaneous": []
-      },
-      "beliefs": {
-        "title": "Beliefs",
-        "children": []
-      },
-      "heresies": {
-        "title": "Heresies",
-        "children": []
-      },
-      "blessings": {
-        "title": "Blessings",
-        "children": []
-      },
-      "curses": {
-        "title": "Curses",
-        "children": []
-      },
-      "allies": {
-        "title": "Allies",
-        "children": []
-      },
-      "enemies": {
-        "title": "Enemies",
-        "children": []
-      },
-      "relationships": [],
-      "maxims": []
-    },
-    {
-      "objectType": "deity",
-      "passageName": "DeityProfile",
-      "name": "Auril",
-      "key": "Auril",
-      "aliases": [],
-      "rank": "intermediate deity",
-      "appearance": "",
-      "history": {
-        "title": "History",
-        "children": []
-      },
-      "powers": {
-        "title": "Powers",
-        "children": []
-      },
-      "titles": [
-        "Goddess of Winter",
-        "The Frostmaiden",
-        "Lady Frostkiss",
-        "Icedawn"
-      ],
-      "description": "Auril, the merciless goddess of cold and winter, is worshiped mostly in regions that are affected by deep winters. Folk propitiate Auril with offerings and prayers for mercy. Her priests warn others to prepare for winter, and to stock extra provisions in order to have some to spare as offerings to the goddess.\nFew favor Auril except for those who make their livelihood from winter or those who truly love the season. Her rare priests tend to be folk who would, but for their status, likely be outcasts from their communities. They practice celibacy and remain aloof from others when not serving in their official capacity.\nLuskan has a temple dedicated to Auril, the whitespired Winter Palace. The structure is a roofless array of pillars and arches carved of white stone. The rituals of Auril's worship often seem cruel to outsiders. In Luskan, visitors gather at the temple to watch the frequent \"wet parades,\" a ritual in which supplicants don garments packed with ice. They then journey between six white pillars known as the Kisses of Auril, which are dispersed throughout the city. The worshipers move from pillar to pillar, chanting prayers to the goddess. Upon reaching a pillar, a supplicant must climb it and then \"kiss the lady,\" touching lips to a rusty iron plate at the top. In winter, these events resemble frantic footraces, with the added risk of frostbite and injuries caused by falling from the slippery pillars. The parade runners are cheered on by patrons who come out of nearby taverns to place bets on the stamina of the participants. Those who finish the race are thought to have helped make the winter easier, and they rarely have to pay for food or ale all winter long.",
-      "symbol": "Six-pointed snowflake",
-      "portfolios": ["nature", "tempest"],
-      "domains": ["nature", "tempest"],
-      "alignment": "Neutral Evil",
-      "status": "alive",
-      "gender": "woman",
-      "shape": "human",
-      "race": "god",
-      "channelDivinity": {
-        "title": "Channel Divinity",
-        "children": ["Charm Animals and Plants", "Destructive Wrath"]
-      },
-      "combat": {
-        "title": "Combat",
-        "children": []
-      },
-      "probabilityWeightings": {
-        "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
-        },
-        "politicalIdeology": {
-          "autocracy": 8,
-          "kleptocracy": 5,
-          "meritocracy": 5,
-          "militocracy": 5,
-          "magocracy": 5,
-          "oligarchy": 5,
-          "sophocracy": 5,
-          "technocracy": 8,
-          "theocracy": 3
-        },
-        "politicalSource": {
-          "absolute monarchy": 5,
-          "anarchy": 0,
-          "constitutional monarchy": 5
-        },
-        "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
-          "elf": 0,
-          "gnome": 0,
-          "goblin": 0,
-          "human": 0,
-          "half-elf": 0,
-          "half-orc": 0,
-          "halfling": 0,
-          "tiefling": 0
-        }
-      },
-      "possessions": {
-        "title": "Possessions",
-        "children": []
-      },
-      "followers": {
-        "description": "",
-        "adherents": [],
-        "favouredWeapon": "",
-        "holyDays": {
-          "title": "Holy Days",
-          "children": []
-        }
-      },
-      "personality": {
-        "chaste": 50,
-        "energetic": 50,
-        "forgiving": 50,
-        "generous": 50,
-        "honest": 50,
-        "just": 50,
-        "merciful": 50,
-        "prudent": 50,
-        "temperate": 50,
-        "trusting": 50,
-        "valorous": 50
-      },
-      "associations": {
-        "avatars": [],
-        "animals": [],
-        "plants": [],
-        "places": [],
-        "monsters": [],
-        "gems": [],
-        "colours": [],
-        "miscellaneous": []
-      },
-      "beliefs": {
-        "title": "Beliefs",
-        "children": []
-      },
-      "heresies": {
-        "title": "Heresies",
-        "children": []
-      },
-      "blessings": {
-        "title": "Blessings",
-        "children": []
-      },
-      "curses": {
-        "title": "Curses",
-        "children": []
-      },
-      "allies": {
-        "title": "Allies",
-        "children": []
-      },
-      "enemies": {
-        "title": "Enemies",
-        "children": []
-      },
-      "relationships": [],
-      "maxims": []
-    },
-    {
-      "objectType": "deity",
-      "passageName": "DeityProfile",
-      "name": "Azuth",
-      "key": "Azuth",
-      "aliases": [],
-      "rank": "intermediate deity",
-      "appearance": "",
-      "history": {
-        "title": "History",
-        "children": []
-      },
-      "powers": {
-        "title": "Powers",
-        "children": []
-      },
-      "titles": [
-        "God of Wizardry",
-        "The High One",
-        "The Lord of Spellcraft",
-        "The First Magister"
-      ],
-      "description": "Few pay homage to Azuth aside from wizards. For them, the High One is the ultimate embodiment of all that they hold dear.\nMystra serves as goddess of magic; Oghma is god of knowledge; and Deneir is god of writing and language. Azuth takes aspects of these general fields and applies them to the specific practices of wizards. For instance, while Mystra is the deity who represents the soul, art, and wonder of magic, Azuth is god of a wizard's long hours of study, exacting standards of movement and speech, and cramped, ink-stained fingers. Wizards invoke Azuth when they scribe scrolls, inscribe magic circles, attempt to memorize spells, and even when they cast spells. Often this acknowledgment comes in the form of silently forming Azuth's holy symbol, pointing the index finger of the left hand to the sky. For many wizards, the gesture is so commonplace in their lives that it becomes an unconscious habit.\nTemples dedicated to Azuth are scarce, and clerics of the deity are extremely rare. Even in magic-saturated Halruaa, only a handful of holy places are dedicated to Azuth. Sometimes a statue or a shrine dedicated to him stands in a corner of a temple to Mystra or another deity. More often, a wizard has a personal shrine at home. Azuth is represented at such sites as a hooded and bearded figure with left hand held high, finger pointed up. Sometimes he is represented by merely the hand. In either case, the finger often serves as a candleholder or as the point of origin for a light spell.",
-      "symbol": "Left hand pointing upward, outlined in fire",
-      "portfolios": ["arcana", "knowledge"],
-      "domains": ["arcana", "knowledge"],
-      "alignment": "Lawful Neutral",
-      "status": "alive",
-      "gender": "man",
-      "shape": "human",
-      "race": "god",
-      "channelDivinity": {
-        "title": "Channel Divinity",
-        "children": []
-      },
-      "combat": {
-        "title": "Combat",
-        "children": []
-      },
-      "probabilityWeightings": {
-        "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
-        },
-        "politicalIdeology": {
-          "autocracy": 8,
-          "kleptocracy": 5,
-          "meritocracy": 5,
-          "militocracy": 5,
-          "magocracy": 5,
-          "oligarchy": 5,
-          "sophocracy": 5,
-          "technocracy": 8,
-          "theocracy": 3
-        },
-        "politicalSource": {
-          "absolute monarchy": 5,
-          "anarchy": 0,
-          "constitutional monarchy": 5
-        },
-        "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
-          "elf": 0,
-          "gnome": 0,
-          "goblin": 0,
-          "human": 0,
-          "half-elf": 0,
-          "half-orc": 0,
-          "halfling": 0,
-          "tiefling": 0
-        }
-      },
-      "possessions": {
-        "title": "Possessions",
-        "children": []
-      },
-      "followers": {
-        "description": "",
-        "adherents": [],
-        "favouredWeapon": "",
-        "holyDays": {
-          "title": "Holy Days",
-          "children": []
-        }
-      },
-      "personality": {
-        "chaste": 50,
-        "energetic": 50,
-        "forgiving": 50,
-        "generous": 50,
-        "honest": 50,
-        "just": 50,
-        "merciful": 50,
-        "prudent": 50,
-        "temperate": 50,
-        "trusting": 50,
-        "valorous": 50
-      },
-      "associations": {
-        "avatars": [],
-        "animals": [],
-        "plants": [],
-        "places": [],
-        "monsters": [],
-        "gems": [],
-        "colours": [],
-        "miscellaneous": []
-      },
-      "beliefs": {
-        "title": "Beliefs",
-        "children": []
-      },
-      "heresies": {
-        "title": "Heresies",
-        "children": []
-      },
-      "blessings": {
-        "title": "Blessings",
-        "children": []
-      },
-      "curses": {
-        "title": "Curses",
-        "children": []
-      },
-      "allies": {
-        "title": "Allies",
-        "children": []
-      },
-      "enemies": {
-        "title": "Enemies",
-        "children": []
-      },
-      "relationships": [],
-      "maxims": []
-    },
-    {
-      "objectType": "deity",
-      "passageName": "DeityProfile",
-      "name": "Bane",
-      "key": "Bane",
-      "aliases": [],
-      "rank": "intermediate deity",
-      "appearance": "",
-      "history": {
-        "title": "History",
-        "children": []
-      },
-      "powers": {
-        "title": "Powers",
-        "children": []
-      },
-      "titles": ["God of Tyranny", "The Black Hand", "The Lord of Darkness"],
-      "description": "Bane has a simple ethos: the strong have not just the right but the duty to rule over the weak. A tyrant who is able to seize power must do so, for not only does the tyrant benefit, but so do those under the tyrant's rule. When a ruler succumbs to decadence, corruption, or decrepitude, a stronger and more suitable ruler will rise.\nBane is vilified in many legends. Throughout history, those who favor him have committed dark deeds in his name, but most people don't worship Bane out of malice. Bane represents ambition and control, and those who have the former but lack the latter pray to him to give them strength. It is said that Bane favors those who exhibit drive and courage, and that he aids those who seek to become conquerors, carving kingdoms from the wilderness, and bringing order to the lawless.mAt many times and in many places in Faerûn, the faithful of Bane have been seen as saviors for their efforts in slaughtering raiders, throwing down corrupt rulers, or saving armies on the brink of defeat. But in just as many other places, the worship of Bane has created or supported cruel dictatorships, aided mercantile monopolies, or brought about the practice of slavery where before it didn't exist.",
-      "symbol": "Upright black hand, thumb and fingers together",
-      "portfolios": ["order", "war"],
-      "domains": ["order", "war"],
-      "alignment": "Lawful Evil",
-      "status": "alive",
-      "gender": "man",
-      "shape": "human",
-      "race": "god",
-      "channelDivinity": {
-        "title": "Channel Divinity",
-        "children": []
-      },
-      "combat": {
-        "title": "Combat",
-        "children": []
-      },
-      "probabilityWeightings": {
-        "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
-        },
-        "politicalIdeology": {
-          "autocracy": 8,
-          "kleptocracy": 5,
-          "meritocracy": 5,
-          "militocracy": 5,
-          "magocracy": 5,
-          "oligarchy": 5,
-          "sophocracy": 5,
-          "technocracy": 8,
-          "theocracy": 3
-        },
-        "politicalSource": {
-          "absolute monarchy": 5,
-          "anarchy": 0,
-          "constitutional monarchy": 5
-        },
-        "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
-          "elf": 0,
-          "gnome": 0,
-          "goblin": 0,
-          "human": 0,
-          "half-elf": 0,
-          "half-orc": 0,
-          "halfling": 0,
-          "tiefling": 0
-        }
-      },
-      "possessions": {
-        "title": "Possessions",
-        "children": []
-      },
-      "followers": {
-        "description": "",
-        "adherents": [],
-        "favouredWeapon": "",
-        "holyDays": {
-          "title": "Holy Days",
-          "children": []
-        }
-      },
-      "personality": {
-        "chaste": 50,
-        "energetic": 50,
-        "forgiving": 50,
-        "generous": 50,
-        "honest": 50,
-        "just": 50,
-        "merciful": 50,
-        "prudent": 50,
-        "temperate": 50,
-        "trusting": 50,
-        "valorous": 50
-      },
-      "associations": {
-        "avatars": [],
-        "animals": [],
-        "plants": [],
-        "places": [],
-        "monsters": [],
-        "gems": [],
-        "colours": [],
+        "monsters": [
+          "Baatezu",
+          "Beholders",
+          "Black dragons",
+          "Death tyrants",
+          "Banelar nagas",
+          "Beasts of Bane",
+          "Fang dragons",
+          "Green dragons",
+          "Hell hounds"
+        ],
+        "gems": [
+          "Black sapphires (to show approval)",
+          "Powdered red carnelian (to show disapproval)"
+          "Hematite",
+          "Emeralds",
+          "Bloodstones"
+        ],
+        "colours": [
+          "Black",
+          "Green",
+          "Red"
+        ],
         "miscellaneous": []
       },
       "beliefs": {
@@ -854,10 +943,6 @@
       "name": "Beshaba",
       "key": "Beshaba",
       "aliases": [
-        "Goddess of Misfortune",
-        "The Maid of Misfortune",
-        "Lady Doom",
-        "Black Bess"
       ],
       "rank": "intermediate deity",
       "appearance": "",
@@ -869,7 +954,12 @@
         "title": "Powers",
         "children": []
       },
-      "titles": [""],
+      "titles": [
+        "Goddess of Misfortune",
+        "The Maid of Misfortune",
+        "Lady Doom",
+        "Black Bess"
+      ],
       "description": "Beshaba is the counterpoint to Tymora and is just as frequently acknowledged in daily life as is her more benevolent \"sister.\" She is seen as a cruel and capricious goddess who must be propitiated to avoid attracting her attention and interest in a negative way.\nBeshaba's name is invoked when someone is beset by bad luck - which could be as minor as stubbing a toe or breaking a wagon wheel, or as catastrophic as slipping and accidentally falling off a cliff. It is also invoked to ward off her attentions when someone is doing something in which good luck wouldn't play a part but bad luck might. For example, someone rolling dice would invoke Tymora because they want random chance to fall in their favor, but someone about to cross a rickety bridge would ask Beshaba to keep the bridge intact.\nFolk make the symbol of Beshaba by folding in their thumbs and extending their fingers on one or both hands (mimicking the horns of her holy symbol) to ward off misfortune. The same gesture raised to the head signifies a salute; when pointed at someone, the \"horns\" indicate ill favor directed toward that individual.\nMany druids worship Beshaba as one of the First Circle. They propitiate her with dances while wearing fire-blackened antlers dipped in blood. According to these druids, her holy symbol is the horns of a stag because when Beshaba was first worshiped, humans were simple hunter-gatherers and she was believed to bring misfortune to hunters, such as being gored by a stag.\nAlthough most people tremble in fear at the prospect of Beshaba's attendance at any event (even in spirit), Beshaba is almost always invoked and welcomed formally in the opening speeches or ceremonies of formal functions such as marriages and coronations, contests of sport or martial prowess, and at the naming ceremonies of children. If she isn't invited to such an event, she might take offense and wreak misfortune on those involved.\nTemples to Beshaba are virtually unknown. It's common, however, for rural folk to erect a post and mount antlers on it at the site of some roadside accident or murder. In cities, where antlers are hard to come by and murders and accidents more prevalent, the fashion is to draw the black antlers of Beshaba with charcoal on a nearby wall, leaving the symbol on display until weather scours it away. These \"shrines,\" in either form, serve as warnings to others about places of ill fortune.\nMore formal shrines to Beshaba exist in places where folk frequently hope to ward off misfortune. These sites tend to be posts or stones painted red with blackened antlers attached to them, or a red, triangular wallmounted plaque with attached antlers. Both types have a stone or bronze bowl where coins can be tossed or burnt offerings made. The Red Wizards of Thay commonly erect such shrines outside their ritual chambers to guard against unfortunate mistakes.\nFew dare to take Beshaba as a patron. The rare clerics of the Maid of Misfortune are those who have been deeply affected by great misfortunes and who seek to warn others of the essential unfairness of life - or to inflict that unfairness upon them.",
       "symbol": "Black antlers",
       "portfolios": ["trickery"],
@@ -889,11 +979,11 @@
       },
       "probabilityWeightings": {
         "economicIdeology": {
-          "capitalism": 6,
-          "communism": 2,
-          "feudalism": 3,
-          "primitivism": 3,
-          "syndicalism": 3
+          "capitalism": 0,
+          "communism": 0,
+          "feudalism": 0,
+          "primitivism": 0,
+          "syndicalism": 0
         },
         "politicalIdeology": {
           "autocracy": 8,
@@ -907,13 +997,13 @@
           "theocracy": 3
         },
         "politicalSource": {
-          "absolute monarchy": 5,
+          "absolute monarchy": 0,
           "anarchy": 0,
-          "constitutional monarchy": 5
+          "constitutional monarchy": 0
         },
         "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
+          "dragonborn": 0,
+          "dwarf": 0,
           "elf": 0,
           "gnome": 0,
           "goblin": 0,
@@ -940,13 +1030,13 @@
       "personality": {
         "chaste": 50,
         "energetic": 50,
-        "forgiving": 50,
-        "generous": 50,
+        "forgiving": 0,
+        "generous": 0,
         "honest": 50,
         "just": 50,
-        "merciful": 50,
+        "merciful": 0,
         "prudent": 50,
-        "temperate": 50,
+        "temperate": 0,
         "trusting": 50,
         "valorous": 50
       },
@@ -3882,7 +3972,10 @@
       "passageName": "DeityProfile",
       "name": "Mielikki",
       "key": "Mielikki",
-      "aliases": [],
+      "aliases": [
+        "Khalreshaar",
+        "Khelliara"
+      ],
       "rank": "intermediate deity",
       "appearance": "",
       "history": {
@@ -3900,11 +3993,11 @@
       ],
       "description": "People rarely speak of Mielikki except in quiet forest spaces. Woodlands that evoke wonder are where she reigns supreme, but she is said to keep watch over good folk in any forest, not matter how dark or cruel. When children are lost in the woods, people beseech Mielikki to protect them until they are found.\nMielikki is the goddess of the forest and the creatures that live within it. She is seen as a remote and spiritual deity - less human-like than many other gods. She's not unmindful of people, but her attention and favor are difficult to attract. She is the patron of rangers in the same way that Milil is the patron of bards, but even rangers rarely pray to her directly. They instead pray to Gwaeron Windstrom, who they believe will carry their words to the goddess by tracking her to whichever forest she hides in.\nMielikki's symbol is a unicorn, which prompts some to think of her as such and conflate her with Lurue, Queen of the Unicorns and the actual goddess of their kind. But most tales depict Mielikki as a beautiful woman whom Lurue allows upon her back as a rider, and the two are thought to be boon companions. Mielikki's relationships with other deities of the natural world are more complex. Silvanus is sometimes thought of as her father and Eldath is considered her sister, but Mielikki walks her own path through the wilds.\nShe has many shrines, particularly in the Savage Frontier. Most consist of a dead tree trunk into which has been carved a likeness of her holy symbol, a unicorn's head. Alternatively, the likeness might be carved on a separate piece of wood and tacked to a living tree. These shrines typically mark the point in a forest beyond which locals know not to cut timber or hunt. Often these tributes are created by loggers at the end of a logging excursion as a mark of thanks to the goddess for providing the wood and for keeping the timber cutters safe during the work.",
       "symbol": "Golden-horned, blue-eyed unicorn's head facing left",
-      "portfolios": ["nature"],
+      "portfolios": ["forests"],
       "domains": ["nature"],
       "alignment": "Neutral Good",
       "status": "alive",
-      "gender": "man",
+      "gender": "woman",
       "shape": "human",
       "race": "god",
       "channelDivinity": {
@@ -3940,8 +4033,8 @@
           "constitutional monarchy": 5
         },
         "race": {
-          "dragonborn": 1,
-          "dwarf": 5,
+          "dragonborn": 0,
+          "dwarf": 0,
           "elf": 0,
           "gnome": 0,
           "goblin": 0,
@@ -3958,7 +4051,12 @@
       },
       "followers": {
         "description": "",
-        "adherents": [],
+        "adherents": [
+          "Druids",
+          "Fey",
+          "Foresters",
+          "Rangers"
+        ],
         "favouredWeapon": "",
         "holyDays": {
           "title": "Holy Days",
@@ -4006,13 +4104,29 @@
       },
       "allies": {
         "title": "Allies",
-        "children": []
+        "children": [
+          "Shaundakul",
+          "Lathander"
+        ]
       },
       "enemies": {
         "title": "Enemies",
-        "children": []
+        "children": [
+          "Malar",
+          "Talos",
+          "Talona"
+        ]
       },
-      "relationships": [],
+      "relationships": [
+				{
+					"name": "Silvanus",
+					"relationship": "father",
+				},
+        {
+          "name": "Eldath",
+          "relationship": "sister"
+        }
+      ],
       "maxims": []
     },
     {
@@ -4021,8 +4135,8 @@
       "name": "Milil",
       "key": "Milil",
       "aliases": [],
-      "rank": "intermediate deity",
-      "appearance": "",
+      "rank": "demigod",
+      "appearance": "Milil appeared as a young, charismatic male with shoulder-length hair, indistinguishable as either human or elf. His clean, handsome good looks were exceeded by hauntingly beautiful voice. He dressed in the bright, elegantly patterned clothes of a troubadour accented with gold jewelry and other eye-catching decorations.",
       "history": {
         "title": "History",
         "children": []
@@ -4034,7 +4148,9 @@
       "titles": [
         "God of Poetry and Song",
         "The Lord of Song",
-        "The One True Hand of All-Wise Oghma"
+        "The One True Hand of All-Wise Oghma",
+        "Guardian of Singers and Troubadours",
+        "One True Hand of All-Wise Oghma"
       ],
       "description": "Milil is the god of poetry, eloquence, and song. He is a god of creativity and inspiration, of the entire song more than just the lyrics or the music. He represents the finished thought, the result of the process that takes an idea from conception to realization. Milil is most venerated by bards, troubadours, and other entertainers, but anyone preparing to entertain or speak before a crowd might offer Milil a brief prayer for a successful performance. Those who seek inspiration in a creative endeavor also pray to Milil.\nHis icons depict him as a handsome male, sometimes a human, sometimes an elf, and even a half-elf in places (such as Aglarond) that have a large half-elf population. He is variously depicted as young or old, but his identity is always apparent because of his five-stringed harp made of silvery leaves, which he carries constantly. He is the ideal to which all performers aspire: poised and confident, winningly charismatic, and a source of inspiration for those who listen to him. He is said to have total recall of anything he hears or that is spoken while music plays, as well as utmost skill at improvisation.\nHoly sites dedicated to Milil are often found in performance venues and schools of music. Whether the site is a vast concert hall or a small choral chamber, it must have excellent acoustic qualities. Milil's priests are patrons of the arts in addition to being performers themselves, and they frequently act as tutors in the arts of performance at his shrines and temples.\nLike Deneir, Milil is sometimes thought of as being in service to Oghma. In these portrayals of the deity, Milil is the god's left hand, also referred to as the One True Hand. This expression isn't meant to denigrate the right hand (Deneir); rather, it stems from the fact that left-handedness is more often associated with great artistic ability and the belief that the greatest art comes from the acceptance of truth.",
       "symbol": "Five-stringed harp made of leaves",
@@ -4047,7 +4163,9 @@
       "race": "god",
       "channelDivinity": {
         "title": "Channel Divinity",
-        "children": []
+        "children": [
+          "Radiance of the dawn"
+        ]
       },
       "combat": {
         "title": "Combat",
@@ -4118,8 +4236,18 @@
       },
       "associations": {
         "avatars": [],
-        "animals": [],
-        "plants": [],
+        "animals": [
+          "songbirds, particularly nightengales",
+          "peregrine falcons",
+          "calico cats", 
+          "white steeds"
+        ],
+        "plants": [
+          "peonies",
+          "lillies",
+          "red roses",
+          "yellow roses"
+        ],
         "places": [],
         "monsters": [],
         "gems": [],
@@ -4144,11 +4272,17 @@
       },
       "allies": {
         "title": "Allies",
-        "children": []
+        "children": [
+          "Mystra",
+          "Sune",
+          "Lliira"
+        ]
       },
       "enemies": {
         "title": "Enemies",
-        "children": []
+        "children": [
+          "Cyric"
+        ]
       },
       "relationships": [],
       "maxims": []
@@ -4298,7 +4432,7 @@
       "name": "Mystra",
       "key": "Mystra",
       "aliases": [],
-      "rank": "intermediate deity",
+      "rank": "greater deity",
       "appearance": "",
       "history": {
         "title": "History",
@@ -4316,10 +4450,10 @@
       ],
       "description": "Mystra is the goddess of magic, and with that the goddess of possibilities. She is venerated by mages and by those who use magic or magical objects in their daily lives. She also receives the prayers of those who find magic wondrous or encounter magic they fear. Mystra is the goddess of the essential force that makes all spellcasting possible. She provides and tends the Weave, the conduit through which mortal spellcasters and magical crafters can safely access the raw force of magic.\nThe faith of Mystra is pervasive in Faerûn, which is to be expected for a land as touched by magic as it is. Her worshipers include those who use magic or work closely with it, such as alchemists and sages. The blue-clad priests of Mystran temples count wizards and sorcerers among their numbers, as well as the occasional bard. The goal of Mystra's faithful is simple: that magic be preserved and promulgated throughout the Realms. It isn't unusual for her followers to keep an eye out for those who demonstrate high potential for using magic and help arrange for such persons to find tutelage with a suitable mentor.",
       "symbol": "Circle of seven stars, nine stars encircling a flowing red mist, or a single star",
-      "portfolios": ["arcana", "knowledge"],
+      "portfolios": ["magic", "spells", "The Weave"],
       "domains": ["arcana", "knowledge"],
       "alignment": "Neutral Good",
-      "status": "alive",
+      "status": "dead",
       "gender": "woman",
       "shape": "human",
       "race": "god",
@@ -4437,7 +4571,7 @@
       "name": "Oghma",
       "key": "Oghma",
       "aliases": [],
-      "rank": "intermediate deity",
+      "rank": "greater deity",
       "appearance": "",
       "history": {
         "title": "History",
@@ -4447,7 +4581,13 @@
         "title": "Powers",
         "children": []
       },
-      "titles": ["God of Knowledge", "The Binder", "The Lord of Knowledge"],
+      "titles": [
+        "God of Knowledge",
+        "The Binder",
+        "The Lord of Knowledge"
+        "The Wise God",
+        "The Binder of What is Known",
+        "Patron of Bards"],
       "description": "Oghma is the god of inspiration, invention, and knowledge. Above all else, Oghma represents knowledge in its most supreme, raw form - the idea. An aphorism cited by his faithful about this concept serves them as a prayer when it is repeated aloud: \"An idea has no heft but it can move mountains. An idea has no authority but it can dominate people. An idea has no strength but it can push aside empires. Knowledge is the greatest tool of the mortal mind, outweighing anything made by mortal hands. Before anything else can exist, the idea must exist.\"\nOghma's faithful spread knowledge and literacy as widely as possible, believing that minds ought never to be shackled by ignorance and thus not be able to bequeath the benefit they might otherwise provide their fellows. Not surprisingly, those who follow Oghma oppose those who foster deceit, trickery, and ignorance.\nFolk of many professions favor the Binder: wizards, cartographers, artists, bards, clerks, inventors, sages, scribes, and all manner of others who uncover, preserve, and create knowledge and learning. The worship of Oghma was, at one point, one of the few organized faiths in Faerûn that had an established orthodoxy and a complete network of temples that adhered to that orthodoxy. Schisms during the Time of Troubles shattered that network, and now the structures that house the faith are individual temples or small networks of allied temples, much in the manner of other faiths.",
       "symbol": "Blank scroll",
       "portfolios": ["knowledge"],
@@ -4459,7 +4599,10 @@
       "race": "god",
       "channelDivinity": {
         "title": "Channel Divinity",
-        "children": []
+        "children": [
+          "Knowledge of the ages",
+          "Read thoughts"
+        ]
       },
       "combat": {
         "title": "Combat",
@@ -4995,7 +5138,7 @@
       "name": "Silvanus",
       "key": "Silvanus",
       "aliases": [],
-      "rank": "intermediate deity",
+      "rank": "greater deity",
       "appearance": "",
       "history": {
         "title": "History",
@@ -5010,10 +5153,12 @@
         "Oak Father",
         "The Old Oak",
         "Old Father Tree"
+        "The Forest Father",
+        "Treefather"
       ],
       "description": "Silvanus represents the entirety of nature, deserts as well as forests, sharks as much as deer. But folk in the North, who contend with the dangers of forests, mountains, and plains, see Silvanus more as a god of those places. Silvanus is thought of as a grim and severe father figure who metes out flood and drought, fire and ice, and life and death in the wilderness. In legends he often commands other nature deities, dealing out rewards and punishments to them as is fitting.\nNature and its impartial fairness is central to the dogma of Silvanus's faith. His priests seek to know the total situation, to view the macrocosm; their viewpoint isn't confined to one person's or one nation's idea of what is best. The loss of a farming community to goblin raids is a tragedy for some, but the event provides an opportunity for the wilderness to grow up and make the land fertile again, which in turn provides new challenges for those who would return to tame it.\nThe creed of Silvanus dictates that nature's glory must be preserved not merely because nature is beautiful, but because wild nature is the true state of the world. Its expanses refresh and revitalize the mortal soul, and give breath to all the world. Many of his faithful oppose the expansion of settlements into wild places, and consider excessive consumption of natural resources to be not only wasteful but blasphemous.\nSilvanus often receives veneration from travelers in wild lands, explorers, and residents of rural communities far from the protection of a local lord or a great city. The oak leaf is Silvanus's symbol, and a grove of oak trees within a village or on its outskirts is often dedicated as a shrine to him. In rural places where oak trees don't grow, an oak leaf etched into the bark of another kind of tree signifies a sacred site.",
       "symbol": "Oak leaf",
-      "portfolios": ["nature"],
+      "portfolios": ["wild nature"],
       "domains": ["nature"],
       "alignment": "Neutral",
       "status": "alive",
@@ -5022,7 +5167,9 @@
       "race": "god",
       "channelDivinity": {
         "title": "Channel Divinity",
-        "children": []
+        "children": [
+          "Charm animals and plants"
+        ]
       },
       "combat": {
         "title": "Combat",
@@ -5119,13 +5266,28 @@
       },
       "allies": {
         "title": "Allies",
-        "children": []
+        "children": [
+          "Chauntea",
+          "Lathander"
+        ]
       },
       "enemies": {
         "title": "Enemies",
-        "children": []
+        "children": [
+          "Malar"
+        ]
       },
-      "relationships": [],
+      "relationships": [
+        {
+					"name": "Mielikki",
+					"relationship": "daughter",
+				},
+        {
+          "name": "Eldath",
+          "relationship": "daughter"
+        }
+      ],
+      
       "maxims": []
     },
     {
